@@ -1,0 +1,55 @@
+name: "DRC and ERC using GitHub actions"
+
+# Controls when the action will run.
+on:
+  push:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+  pull_request:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+
+jobs:
+  ERC:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run ERC
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        kicad: 5
+        dir: hardware
+        skip: run_drc
+        targets: __NONE__
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v2
+      with:
+        name: ERC_Output
+        path: hardware
+
+
+  DRC:
+    runs-on: ubuntu-latest
+    needs: ERC
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run DRC
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        kicad: 5
+        dir: hardware
+        skip: run_erc
+        targets: __NONE__
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v1
+      with:
+        name: DRC_Output
+        path: hardware

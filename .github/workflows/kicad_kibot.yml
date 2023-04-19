@@ -1,0 +1,54 @@
+name: KiCad CI/CD for ElectronicCats Projects
+
+on:
+  release:
+    types: [published]
+    paths:
+      - '*.sch'
+      - '*.kicad_pcb'
+      - '*.kibot.yaml'
+      - '.github/workflows/kicad_kibot.yml'
+
+jobs:
+  FabricationSch:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v2_dk6
+      with:
+        # Required - kibot config file
+        config: hardware/electroniccats_sch.kibot.yaml
+        # optional - schematic file
+        schema: 'hardware/Template-KiCAD-Project-CI.kicad_sch'
+        # optional - pcb file
+        board: 'hardware/Template-KiCAD-Project-CI.kicad_pcb'
+
+    - name: upload assets
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+         generalFiles.zip
+         iBom.zip
+         Schematic.zip
+         Bom_csv.zip
+
+
+  FabricationPCB:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v2_dk6
+      with:
+        # Required - kibot config file
+        config: hardware/electroniccats_pcb.kibot.yaml
+        # optional - schematic file
+        schema: 'hardware/Template-KiCAD-Project-CI.kicad_sch'
+        # optional - pcb file
+        board: 'hardware/Template-KiCAD-Project-CI.kicad_pcb'
+
+    - name: upload assets
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          JLCPCB.zip
+          PCBWay.zip

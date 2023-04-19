@@ -1,0 +1,158 @@
+# KiBot config file
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
+global:
+  # We want the revision added to the names for this project
+  output: '%f-%i_%r.%x'
+
+filters:
+ - name: 'exclude_any'
+   type: 'generic'
+   comment: 'Exclude logos, testpoints, fiducials and power'
+   exclude_any:
+     - column: Reference
+       regex: '^(G|#|TP|F).*'
+
+outputs:
+  - name: 'print_sch'
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: .
+    options:
+      output: Schematic.pdf
+
+  - name: 'print_front'
+    comment: "Print F.Cu+Dwgs.User"
+    type: pdf_pcb_print
+    dir: .
+    options:
+      output_name: PCB_Top.pdf
+    layers:
+      - layer: F.Cu
+      - layer: Dwgs.User
+
+  - name: 'print_bottom'
+    comment: "Print B.Cu+Dwgs.User"
+    type: pdf_pcb_print
+    dir: .
+    options:
+      output_name: PCB_Bottom.pdf
+    layers:
+      - layer: B.Cu
+      - layer: Dwgs.User
+
+  - name: 'interactive_bom'
+    comment: "Interactive Bill of Materials (HTML)"
+    type: ibom
+    dir: BoM
+    options:
+      blacklist: 'DNF*'
+      name_format: '%f_%r_iBoM'
+
+  - name: 'bom_xlsx'
+    comment: "Bill of Materials in XLSX format"
+    type: bom
+    dir: BoM
+    options:
+      format: XLSX
+      xlsx:
+        highlight_empty: false
+
+  - name: 'bom_csv'
+    comment: "Bill of Materials in CSV format"
+    type: bom
+    dir: BoM
+    options:
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+      format: CSV
+      columns:
+        - Row
+        - field: Quantity Per PCB
+          name: 'Quantity'
+        - field: References
+          name: Reference(s)
+        - field: Value
+          name: Value
+        - field: LCSC
+          name: '#LCSC'
+        - field: Proveedor
+          name: Proveedor
+        - field: manf#
+          name: manf#
+ 
+  - name: 'position'
+    comment: "Pick and place file"
+    type: position
+    dir: Position
+    options:
+      format: ASCII   # CSV or ASCII format
+      units: millimeters  # millimeters or inches
+      separate_files_for_front_and_back: true
+      only_smd: true
+
+  - name: '3D_model'
+    comment: "Step files"
+    type: step
+    dir: .
+    options:
+      no_virtual: false 
+      origin: grid
+      output: '%f_step.%x'
+      metric_units: true
+  
+  - name: general
+    comment: General files
+    type: compress
+    options: 
+      format: ZIP
+      files: 
+        - from_output: print_front
+          dest: /
+        - from_output: print_bottom
+          dest: /
+        - from_output: bom_xlsx
+          dest: /
+        - from_output: position
+          dest: /
+        - from_output: 3D_model
+          dest: /
+      output: 'generalFiles.%x'
+
+  - name: iBom
+    comment: iBom file
+    type: compress
+    options: 
+      format: ZIP
+      files: 
+        - from_output: interactive_bom
+          dest: /
+      output: 'iBom.%x'
+
+  - name: PDFSchematic
+    comment: Schematic file
+    type: compress
+    options: 
+      format: ZIP
+      files: 
+        - from_output: print_sch
+          dest: /
+      output: 'Schematic.%x'
+
+  - name: csv
+    comment: csv file
+    type: compress
+    options: 
+      format: ZIP
+      files: 
+        - from_output: bom_csv
+          dest: /
+      output: 'Bom_csv.%x'
