@@ -929,10 +929,6 @@
     (stroke (width 0) (type default))
     (uuid 33d6be9a-5b8f-4788-968b-c8afc12b684d)
   )
-  (wire (pts (xy 131.445 56.515) (xy 138.43 56.515))
-    (stroke (width 0) (type default))
-    (uuid 4dbd850e-dcbe-4838-9f77-0962dbe98d61)
-  )
   (wire (pts (xy 197.485 62.23) (xy 192.405 62.23))
     (stroke (width 0) (type default))
     (uuid 4e45eaeb-8180-4db2-b4a1-abc30d053e1e)
@@ -945,6 +941,10 @@
     (stroke (width 0) (type default))
     (uuid 50558408-de4b-4daa-83cd-916d97580b74)
   )
+  (wire (pts (xy 133.35 59.055) (xy 138.43 59.055))
+    (stroke (width 0) (type default))
+    (uuid 505e1ffc-1793-4f76-b46d-d34cbe5f9097)
+  )
   (wire (pts (xy 212.09 62.23) (xy 212.09 56.515))
     (stroke (width 0) (type default))
     (uuid 530aee99-ba6f-4c57-b268-ee73da047dec)
@@ -952,6 +952,10 @@
   (wire (pts (xy 91.44 64.77) (xy 94.615 64.77))
     (stroke (width 0) (type default))
     (uuid 5d241b8a-16c2-4cd4-bd79-4ce482d15414)
+  )
+  (wire (pts (xy 128.905 56.515) (xy 138.43 56.515))
+    (stroke (width 0) (type default))
+    (uuid 5e6e8110-1052-44ac-badf-c80485512826)
   )
   (wire (pts (xy 133.35 51.435) (xy 133.35 50.8))
     (stroke (width 0) (type default))
@@ -968,10 +972,6 @@
   (wire (pts (xy 128.27 38.735) (xy 138.43 38.735))
     (stroke (width 0) (type default))
     (uuid 78585abe-49d1-4010-ae27-1389d2e19605)
-  )
-  (wire (pts (xy 130.175 59.055) (xy 138.43 59.055))
-    (stroke (width 0) (type default))
-    (uuid 785bc888-9aaf-447e-9ff8-00de28099028)
   )
   (wire (pts (xy 27.94 57.15) (xy 27.94 58.42))
     (stroke (width 0) (type default))
@@ -1044,6 +1044,10 @@
   (wire (pts (xy 94.615 64.77) (xy 94.615 67.31))
     (stroke (width 0) (type default))
     (uuid ddfb1830-6de6-4f42-880e-255a1afa1ed2)
+  )
+  (wire (pts (xy 128.905 56.515) (xy 128.905 57.15))
+    (stroke (width 0) (type default))
+    (uuid e3f784b0-3c14-4696-9191-bad02a62b7c2)
   )
   (wire (pts (xy 21.59 54.61) (xy 33.02 54.61))
     (stroke (width 0) (type default))
@@ -1255,17 +1259,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c368dfb6-6d5e-429d-b114-615c692d7e72)
   )
-  (label "WKP" (at 130.175 59.055 0) (fields_autoplaced)
+  (label "WKP" (at 133.35 59.055 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c49cb9d7-76ff-44bb-ad76-98883083b9b9)
   )
   (label "MISO" (at 128.27 33.655 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c7f66d3e-6509-4711-a377-84d28e6a08e2)
-  )
-  (label "GND" (at 131.445 56.515 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cefdf051-0614-4a75-89a6-009fcd645a0e)
   )
   (label "LED4" (at 93.98 44.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1311,7 +1311,7 @@
     (pin "1" (uuid a84a3ed3-f07b-4a6c-aae4-bc59b4f657f2))
     (pin "2" (uuid 27cb10cd-5ddc-4c60-97ed-569c47230826))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "D3") (unit 1)
         )
@@ -1336,7 +1336,7 @@
     )
     (pin "1" (uuid 7d29e341-e985-44a3-869a-33049a5d9392))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR03") (unit 1)
         )
@@ -1383,7 +1383,7 @@
     (pin "1" (uuid e1715371-0097-4e2d-880c-2383e82034c0))
     (pin "2" (uuid ee65a477-2b00-4315-94fa-4bb4837face8))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "D4") (unit 1)
         )
@@ -1408,7 +1408,7 @@
     )
     (pin "1" (uuid d0321922-c94c-4575-9468-e31377d0389c))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR05") (unit 1)
         )
@@ -1455,7 +1455,7 @@
     (pin "1" (uuid f539239f-a821-4c04-a30a-82ff2e0b75b7))
     (pin "2" (uuid 00578d1c-5a2c-4baa-86e3-b0427deca127))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "R1") (unit 1)
         )
@@ -1502,7 +1502,7 @@
     (pin "1" (uuid a5ece5f1-df4f-4b8b-8329-5cd9aec6a389))
     (pin "2" (uuid 60c3f470-6b3b-4c35-9565-755a0a2faeab))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "R2") (unit 1)
         )
@@ -1527,7 +1527,7 @@
     )
     (pin "1" (uuid 233f6dc4-d02a-4284-8a40-ad7131abb86e))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR06") (unit 1)
         )
@@ -1574,7 +1574,7 @@
     (pin "7" (uuid 9c86ea5a-3cb0-4045-b43b-b0df1f999c37))
     (pin "8" (uuid 8ef8127a-40e3-4262-bf6d-4ef369319636))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "J1") (unit 1)
         )
@@ -1599,7 +1599,7 @@
     )
     (pin "1" (uuid 29109ec2-fead-4845-baa7-0b48dee485f0))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR09") (unit 1)
         )
@@ -1646,7 +1646,7 @@
     (pin "1" (uuid 3a87c1e6-da95-46b2-934f-b5d223ccb296))
     (pin "2" (uuid f1b611b6-9516-4d87-a236-445ba694a709))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "R4") (unit 1)
         )
@@ -1671,7 +1671,7 @@
     )
     (pin "1" (uuid f74c36c1-802b-470c-9856-9d9e408db4d8))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR010") (unit 1)
         )
@@ -1718,7 +1718,7 @@
     (pin "1" (uuid 9d3797bf-cace-4545-b817-10b3a2889ebc))
     (pin "2" (uuid da515e61-ce07-4c3a-929a-cd54c73942ca))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "R3") (unit 1)
         )
@@ -1765,7 +1765,7 @@
     (pin "1" (uuid 4960bffc-9827-451c-bb12-c480ac3bfaa4))
     (pin "2" (uuid 96a8b099-9e95-41d6-b264-c2cdc95bcd81))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "D2") (unit 1)
         )
@@ -1812,7 +1812,7 @@
     (pin "1" (uuid 820fc5bd-7504-45b2-86a5-c3a68053173d))
     (pin "2" (uuid 2a74608f-a28e-4eca-bec3-adf3e15ab771))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "R5") (unit 1)
         )
@@ -1837,7 +1837,7 @@
     )
     (pin "1" (uuid 72dc8f61-aec8-4ea6-8951-3dd64930ce59))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR02") (unit 1)
         )
@@ -1886,7 +1886,7 @@
     (pin "8" (uuid 760276d6-2a1f-43ec-8324-7e820d5f2d9f))
     (pin "9" (uuid 65c4dec5-dcff-470d-8c0d-ae84b337a14d))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "J2") (unit 1)
         )
@@ -1911,7 +1911,7 @@
     )
     (pin "1" (uuid 4823a0b2-4bdb-4d9e-a870-4e03483699a9))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR04") (unit 1)
         )
@@ -1958,7 +1958,7 @@
     (pin "1" (uuid 0e912c64-7fa6-4c81-ba79-ca2243e2d58f))
     (pin "2" (uuid 6cc4a3f0-a825-418f-bc03-e57bf853fad8))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "D1") (unit 1)
         )
@@ -2036,9 +2036,34 @@
     (pin "8" (uuid b9fa05ba-70b1-45a2-b1c1-ca72df76d4bc))
     (pin "9" (uuid 194f7747-1c52-4bd6-aa4b-7f874d01e2d4))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "IC1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 128.905 57.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d2a7f192-6f71-4fc7-8835-0ea68a9c30c4)
+    (property "Reference" "#PWR011" (at 128.905 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 128.905 62.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 128.905 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 128.905 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e43d520c-225e-4834-8095-075cc73c3230))
+    (instances
+      (project "Flipper_UWB"
+        (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2061,7 +2086,7 @@
     )
     (pin "1" (uuid 53278609-ace8-4b53-9e51-49796a835377))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR08") (unit 1)
         )
@@ -2086,7 +2111,7 @@
     )
     (pin "1" (uuid 251be4b6-27bf-4128-8e2d-1d346a1ba936))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR07") (unit 1)
         )
@@ -2139,7 +2164,7 @@
     (pin "1" (uuid a572315a-11ad-40ff-b516-4f6e124ba75f))
     (pin "2" (uuid c0820316-8b58-4573-bd3d-052a7d3f87a8))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "C1") (unit 1)
         )
@@ -2164,7 +2189,7 @@
     )
     (pin "1" (uuid 6d821a4e-5840-4e61-b195-dc6f0f680653))
     (instances
-      (project "Flipper"
+      (project "Flipper_UWB"
         (path "/250e14ef-3436-4bf2-8d4e-c0bb14da8bba"
           (reference "#PWR01") (unit 1)
         )
