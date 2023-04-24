@@ -26,3 +26,9 @@ fp-info-cache
 *.csv
 
 hardware/Template-KiCAD-Project-CI-backups/
+
+#Archivos a ignorar en FLIPPER_CAN_BUS
+can bus-backups/
+fp-info-cache
+fp-lib-table
+FLIPPER_CAN_BUS.kicad_prl
