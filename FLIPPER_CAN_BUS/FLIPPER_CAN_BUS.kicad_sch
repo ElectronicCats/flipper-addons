@@ -1501,6 +1501,10 @@
   (no_connect (at 79.375 56.388) (uuid 91dacbba-1a58-4c3b-aec8-2a06efee2188))
   (no_connect (at 48.895 56.388) (uuid d59efb05-b822-4c0e-a939-79fc69e80fc8))
 
+  (wire (pts (xy 204.724 16.002) (xy 199.644 16.002))
+    (stroke (width 0) (type default))
+    (uuid 020b1e7f-7977-411f-8c59-20e543c986ed)
+  )
   (wire (pts (xy 230.759 36.068) (xy 230.759 25.908))
     (stroke (width 0.1524) (type solid))
     (uuid 0232b078-ec6d-44f7-88e2-14d3233ad3a0)
@@ -1597,7 +1601,7 @@
     (stroke (width 0) (type solid))
     (uuid 5e998149-2bff-4fe6-a9d4-39961e8f27c7)
   )
-  (wire (pts (xy 40.005 91.313) (xy 40.005 90.678))
+  (wire (pts (xy 38.1 91.313) (xy 38.1 90.551))
     (stroke (width 0) (type default))
     (uuid 60eeec60-a85e-49db-80b3-5398651ee9de)
   )
@@ -1609,6 +1613,10 @@
     (stroke (width 0) (type default))
     (uuid 659447a6-d274-4f8e-8ff3-fb7793d9d445)
   )
+  (wire (pts (xy 65.659 116.332) (xy 65.659 114.046))
+    (stroke (width 0) (type default))
+    (uuid 69369215-2b9e-4a48-8631-d2bad416a6b3)
+  )
   (wire (pts (xy 220.726 51.308) (xy 220.726 42.418))
     (stroke (width 0.1524) (type solid))
     (uuid 6d90390a-8723-4e9c-be40-22c5abbede9a)
@@ -1617,7 +1625,7 @@
     (stroke (width 0) (type default))
     (uuid 6e2a0d59-939e-43db-a94f-58bacadc7477)
   )
-  (wire (pts (xy 40.005 91.313) (xy 45.085 91.313))
+  (wire (pts (xy 38.1 91.313) (xy 45.085 91.313))
     (stroke (width 0) (type default))
     (uuid 7380b168-caaa-4b69-8a3a-f997b7601472)
   )
@@ -1729,10 +1737,6 @@
     (stroke (width 0) (type default))
     (uuid b12ade31-9289-4c57-9c88-4d6bb3fd8427)
   )
-  (wire (pts (xy 66.04 114.046) (xy 75.565 114.046))
-    (stroke (width 0) (type default))
-    (uuid b2b7cc1c-7d92-40e7-82c5-f8246d25ce91)
-  )
   (wire (pts (xy 40.894 36.068) (xy 48.895 36.068))
     (stroke (width 0) (type solid))
     (uuid b3d4fda0-be24-4b4b-a37b-d362597a4716)
@@ -1801,9 +1805,17 @@
     (stroke (width 0) (type default))
     (uuid d5cbbc11-ae92-4317-9d99-68581a52f618)
   )
+  (wire (pts (xy 65.659 114.046) (xy 75.565 114.046))
+    (stroke (width 0) (type default))
+    (uuid d6672f8c-dbf7-4517-85e6-ba31754a38ff)
+  )
   (wire (pts (xy 34.925 52.324) (xy 36.576 52.324))
     (stroke (width 0) (type solid))
     (uuid d68a0abe-ead5-4200-b444-6ecbdfa703b2)
+  )
+  (wire (pts (xy 204.724 17.272) (xy 204.724 16.002))
+    (stroke (width 0) (type default))
+    (uuid e10aed4b-65d5-4c1f-b41e-fd7bf91b5d97)
   )
   (wire (pts (xy 271.653 96.647) (xy 271.653 91.567))
     (stroke (width 0.1524) (type solid))
@@ -1816,6 +1828,10 @@
   (wire (pts (xy 61.849 23.368) (xy 64.135 23.368))
     (stroke (width 0) (type solid))
     (uuid e90925b0-ec5a-4e2a-853e-005eace21d62)
+  )
+  (wire (pts (xy 199.644 16.002) (xy 199.644 17.272))
+    (stroke (width 0) (type default))
+    (uuid f157b24f-3eab-4f0c-b223-b337cb43a725)
   )
   (wire (pts (xy 201.295 103.759) (xy 203.2 103.759))
     (stroke (width 0) (type default))
@@ -1952,10 +1968,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 25e6c189-5890-4c53-a2e1-b20e1637e4f8)
   )
-  (label "GND" (at 38.227 114.173 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 34d4e0ed-f894-4927-a94e-e2cc2a0774d5)
-  )
   (label "CAN_H+" (at 165.227 36.068 0) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 3794223d-3a76-4556-a08e-0acd2214878e)
@@ -2028,10 +2040,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ba3d1695-16f0-4c40-8dea-e8608ee31aee)
   )
-  (label "GND" (at 38.1 96.393 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bfe898eb-8c05-41c0-9cc5-d4d68fb343b5)
-  )
   (label "RXD" (at 79.375 30.988 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c6e63726-8bc8-48e5-8824-13f9ec41e06f)
@@ -2045,47 +2053,10 @@
     (uuid d690a0c6-d7fe-43d3-89fe-9778d159c8c2)
   )
 
-  (symbol (lib_id "CanBus-rescue:C-Device") (at 19.685 56.134 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 01f9afd1-afc2-473a-ac2f-3b7bcbefea1d)
-    (property "Reference" "C4" (at 21.844 57.023 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22pf" (at 19.685 59.309 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 15.875 57.0992 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 19.685 56.134 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "#Manf" "06035A220JAT4A" (at 19.685 56.134 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufactura" "Mouser" (at 19.685 56.134 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c1957429-4ec6-438b-8c5c-a4a8f37b6c7c))
-    (pin "2" (uuid 89f87a0c-fcdf-4379-b48d-2ce311850c82))
-    (instances
-      (project "can bus"
-        (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C4") (unit 1)
-        )
-      )
-      (project "CanBus"
-        (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
-          (reference "C2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 208.153 109.982 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05716a11-9424-481e-8a91-2158a1e0b8c2)
-    (property "Reference" "#PWR021" (at 208.153 116.332 0)
+    (property "Reference" "#PWR024" (at 208.153 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.153 114.554 0)
@@ -2099,9 +2070,9 @@
     )
     (pin "1" (uuid b01bad58-7591-405e-9fd0-782ef90f0f71))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2110,7 +2081,7 @@
   (symbol (lib_id "CanBus-rescue:C-Device") (at 208.153 106.172 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0687aaee-2775-40f1-b663-83ba4a16bd50)
-    (property "Reference" "C8" (at 207.264 104.013 90)
+    (property "Reference" "C12" (at 207.264 104.013 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uf" (at 204.978 106.172 90)
@@ -2119,10 +2090,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 207.1878 109.982 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 208.153 106.172 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/40/AVX_X7RDielectric_777024-1853642.pdf" (at 208.153 106.172 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "06035A220JAT4A" (at 208.153 106.172 0)
+    (property "manf#" "0805YC106KAT2A" (at 208.153 106.172 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 208.153 106.172 0)
@@ -2131,46 +2102,9 @@
     (pin "1" (uuid b3dee69d-0b08-4c1d-b12a-e6c818344c0d))
     (pin "2" (uuid b89675ca-17e6-4ee6-869b-7bcaeccc0bc2))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C8") (unit 1)
-        )
-      )
-      (project "CanBus"
-        (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
-          (reference "C2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "CanBus-rescue:C-Device") (at 204.724 21.082 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 10b7dbdb-2c62-403e-866b-ebc467f8eb3c)
-    (property "Reference" "C6" (at 205.613 18.923 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "47pf" (at 207.899 21.082 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 205.6892 24.892 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 204.724 21.082 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "#Manf" "06035A220JAT4A" (at 204.724 21.082 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufactura" "Mouser" (at 204.724 21.082 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1346e584-2453-4b94-8c24-f692455fb180))
-    (pin "2" (uuid 94d132a4-560b-406d-86f7-ee4c99ec8e52))
-    (instances
-      (project "can bus"
-        (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C6") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "CanBus"
@@ -2184,7 +2118,7 @@
   (symbol (lib_id "CanBus-rescue:C-Device") (at 205.105 56.134 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15661119-f609-4a48-9967-84e0097b8fe3)
-    (property "Reference" "C2" (at 204.216 58.293 90)
+    (property "Reference" "C5" (at 204.216 58.293 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47pf" (at 201.93 56.134 90)
@@ -2193,10 +2127,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 204.1398 52.324 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 205.105 56.134 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/212/KEM_C1022_C0G_AUTO_SMD-1093282.pdf" (at 205.105 56.134 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "06035A220JAT4A" (at 205.105 56.134 0)
+    (property "manf#" "C0603C470J4GACAUTO" (at 205.105 56.134 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 205.105 56.134 0)
@@ -2205,9 +2139,9 @@
     (pin "1" (uuid b65b131c-0610-4932-89c9-53a390325a39))
     (pin "2" (uuid dc4a3556-aae9-4194-8adf-94e195b6ac7d))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "CanBus"
@@ -2218,26 +2152,26 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 40.005 90.678 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 38.1 90.551 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16f214cc-5d93-4f67-834f-a218ec4fa55d)
-    (property "Reference" "#PWR017" (at 40.005 94.488 0)
+    (property "Reference" "#PWR014" (at 38.1 94.361 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 40.005 86.614 0)
+    (property "Value" "+3V3" (at 38.1 86.487 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 40.005 90.678 0)
+    (property "Footprint" "" (at 38.1 90.551 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 40.005 90.678 0)
+    (property "Datasheet" "" (at 38.1 90.551 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a48934e0-cbd4-45cf-84e4-55a8b7617371))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2246,7 +2180,7 @@
   (symbol (lib_id "power:GND") (at 205.105 59.944 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19fa9598-f239-4d98-9185-f1138108a2d4)
-    (property "Reference" "#PWR014" (at 205.105 66.294 0)
+    (property "Reference" "#PWR012" (at 205.105 66.294 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.105 63.246 0)
@@ -2260,9 +2194,9 @@
     )
     (pin "1" (uuid 9909b2a2-9d9e-4056-8783-40965299e5de))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2271,7 +2205,7 @@
   (symbol (lib_id "CanBus-rescue:C-Device") (at 146.558 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a0ec5dd-396f-4738-87c6-bcc48d47dc12)
-    (property "Reference" "C7" (at 145.669 107.061 90)
+    (property "Reference" "C13" (at 145.669 107.061 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uf" (at 143.383 109.22 90)
@@ -2280,10 +2214,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 145.5928 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 146.558 109.22 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/40/AVX_X7RDielectric_777024-1853642.pdf" (at 146.558 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "06035A220JAT4A" (at 146.558 109.22 0)
+    (property "manf#" "0805YC106KAT2A" (at 146.558 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 146.558 109.22 0)
@@ -2292,9 +2226,9 @@
     (pin "1" (uuid 413ec2f9-d414-459e-bda7-64883edc25a5))
     (pin "2" (uuid a587220f-bb2f-482b-bd13-cd8a10a5c48f))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C7") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "CanBus"
@@ -2308,7 +2242,7 @@
   (symbol (lib_id "power:+3V3") (at 236.093 91.567 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1dc443e5-3ff9-453b-ac72-b794c8df4eb7)
-    (property "Reference" "#PWR027" (at 236.093 95.377 0)
+    (property "Reference" "#PWR018" (at 236.093 95.377 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 236.093 88.011 0)
@@ -2322,9 +2256,9 @@
     )
     (pin "1" (uuid 724d7025-bfb7-4746-9687-73404f1fba48))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2333,7 +2267,7 @@
   (symbol (lib_id "CanBus-rescue:GND-power") (at 50.292 24.892 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 215fd321-d53e-461a-8c6b-16fb3ecb1e8d)
-    (property "Reference" "#PWR03" (at 50.292 31.242 0)
+    (property "Reference" "#PWR04" (at 50.292 31.242 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.133 25.273 0)
@@ -2347,9 +2281,9 @@
     )
     (pin "1" (uuid 7ef189a7-147a-4a3b-9869-95ca0482b295))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "CanBus"
@@ -2363,7 +2297,7 @@
   (symbol (lib_id "CanBus-rescue:R-Device") (at 130.81 49.403 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 250b04ce-07d5-4ed9-af56-0e15e0442cae)
-    (property "Reference" "R5" (at 132.969 52.578 90)
+    (property "Reference" "R3" (at 132.969 52.578 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 132.969 48.26 90)
@@ -2372,10 +2306,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 132.588 49.403 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 130.81 49.403 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/427/crcwce3-1762584.pdf" (at 130.81 49.403 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "CRCW080510K0FKEAC" (at 130.81 49.403 0)
+    (property "manf#" "CRCW080510K0FKEAC" (at 130.81 49.403 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 130.81 49.403 0)
@@ -2384,9 +2318,9 @@
     (pin "1" (uuid 76d9f24d-56f9-4e66-80db-3f8c00564613))
     (pin "2" (uuid 03daa47d-dd4d-4066-8a61-bf21942989a0))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "R5") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "CanBus"
@@ -2397,19 +2331,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 66.04 114.046 270) (unit 1)
+  (symbol (lib_id "power:GND") (at 65.659 116.332 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bc2c66c-a95f-4227-8e58-efb40e6d056a)
-    (property "Reference" "#PWR06" (at 59.69 114.046 0)
+    (property "Reference" "#PWR06" (at 65.659 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 61.976 114.681 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "GND" (at 67.818 118.237 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 66.04 114.046 0)
+    (property "Footprint" "" (at 65.659 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 66.04 114.046 0)
+    (property "Datasheet" "" (at 65.659 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c05507d0-f58a-4aec-8860-d17c9a9bc5ea))
@@ -2419,9 +2353,9 @@
           (reference "#PWR06") (unit 1)
         )
       )
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2430,7 +2364,7 @@
   (symbol (lib_id "power:+5V") (at 218.313 91.567 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34ad311e-16cb-4619-b89a-24679365f7bf)
-    (property "Reference" "#PWR024" (at 218.313 95.377 0)
+    (property "Reference" "#PWR016" (at 218.313 95.377 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 218.313 87.249 0)
@@ -2444,9 +2378,9 @@
     )
     (pin "1" (uuid 47d92170-48c5-4f8f-8f3d-b89ebb9a092d))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2467,13 +2401,13 @@
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1912111437_HELE-Harmony-Elec-X2C016000B91H-R_C254270.pdf" (at 29.845 52.324 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "	X2C016000B91H-R" (at 29.845 52.324 90)
+    (property "manf#" "	X2C016000B91H-R" (at 29.845 52.324 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC#" "C254270" (at 29.845 52.324 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "LCSC" (at 29.845 52.324 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "#LCSC" "C254270" (at 29.845 52.324 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e9de1f4c-7fe5-466e-948e-d88cb1cced65))
@@ -2481,7 +2415,7 @@
     (pin "3" (uuid 9fa6b87f-1be7-4f11-9c4c-8048690a93fa))
     (pin "4" (uuid 9d90c6e6-d13b-40d4-9b94-4e18b8999fd5))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "Y1") (unit 1)
         )
@@ -2497,7 +2431,7 @@
   (symbol (lib_id "CanBus-rescue:+3V3-power") (at 139.827 46.228 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3aaa7979-45fe-41b6-870c-1b3d11fdc2aa)
-    (property "Reference" "#PWR06" (at 143.637 46.228 0)
+    (property "Reference" "#PWR07" (at 143.637 46.228 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 135.4328 45.847 0)
@@ -2511,9 +2445,9 @@
     )
     (pin "1" (uuid 4844d049-8408-4a14-a4cc-3c485d4d18df))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "CanBus"
@@ -2527,7 +2461,7 @@
   (symbol (lib_id "CanBus-rescue:C-Device") (at 243.713 100.457 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d723b07-8e2a-401c-a6b8-7641d9c486eb)
-    (property "Reference" "C12" (at 242.824 98.298 90)
+    (property "Reference" "C10" (at 242.824 98.298 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uf" (at 240.538 100.457 90)
@@ -2536,10 +2470,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 242.7478 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 243.713 100.457 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/40/AVX_X7RDielectric_777024-1853642.pdf" (at 243.713 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "06035A220JAT4A" (at 243.713 100.457 0)
+    (property "manf#" "0805YC106KAT2A" (at 243.713 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 243.713 100.457 0)
@@ -2548,9 +2482,9 @@
     (pin "1" (uuid 437a0401-d03f-4722-becc-8ecb97cdbf4e))
     (pin "2" (uuid a77ee38d-5e26-479e-9ea0-106ef5338548))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C12") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "CanBus"
@@ -2564,7 +2498,7 @@
   (symbol (lib_id "CanBus-rescue:C-Device") (at 236.093 100.457 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41a00da1-e557-4f0e-8603-9d621da6268a)
-    (property "Reference" "C10" (at 235.204 98.298 90)
+    (property "Reference" "C9" (at 235.204 98.298 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uf" (at 232.918 100.457 90)
@@ -2573,10 +2507,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 235.1278 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 236.093 100.457 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" (at 236.093 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "06035A220JAT4A" (at 236.093 100.457 0)
+    (property "manf#" "0603F104Z160CT" (at 236.093 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 236.093 100.457 0)
@@ -2585,9 +2519,9 @@
     (pin "1" (uuid b70b24b6-b7d4-4f1e-b5b5-d9a4b08cb847))
     (pin "2" (uuid 4b2f06b5-4268-4b44-980b-088a1565a790))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "CanBus"
@@ -2610,10 +2544,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 222.504 38.608 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 220.726 38.608 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/427/crcwce3-1762584.pdf" (at 220.726 38.608 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "CRCW080510K0FKEAC" (at 220.726 38.608 0)
+    (property "manf#" "CRCW0805120RFKEAC" (at 220.726 38.608 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 220.726 38.608 0)
@@ -2622,7 +2556,7 @@
     (pin "1" (uuid dae031ed-a9c9-4a43-b786-ba1283fe0a1a))
     (pin "2" (uuid 7749e9df-5379-4401-bbf4-c6fcb9bf060c))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "R2") (unit 1)
         )
@@ -2647,8 +2581,14 @@
     (property "Footprint" "footprints:SOT-23-6_DIO" (at 201.295 101.219 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "AP3602AKTR-G1" (at 201.295 101.219 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/115/DIOD_S_A0009645458_1-2512741.pdf" (at 201.295 101.219 0)
       (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "manf#" "AP3602AKTR-G1" (at 201.295 101.219 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufactura" "Mouser" (at 201.295 101.219 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c74b4552-c678-4270-9700-4be00f75edbf))
     (pin "2" (uuid 02b12586-3e3f-47d1-82b5-5ace8f1e6fbb))
@@ -2657,9 +2597,83 @@
     (pin "5" (uuid e946c5ec-9cee-4051-af2c-586b646c3baf))
     (pin "6" (uuid 21d66a8b-3a20-43ba-924e-ed76f9e68140))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "CanBus-rescue:C-Device") (at 19.685 48.514 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 49f61d8c-cc21-4fd4-9e1a-3b0e1a109d5f)
+    (property "Reference" "C3" (at 17.526 49.403 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "22pf" (at 19.685 51.689 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 23.495 49.4792 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/40/C0GNP0_Dielectric-951274.pdf" (at 19.685 48.514 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "0805YA220JAT2A" (at 19.685 48.514 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufactura" "Mouser" (at 19.685 48.514 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 039fd31d-b806-445a-9e7a-c2b6ce67d2fd))
+    (pin "2" (uuid f359604a-a8e2-4d2b-b3c3-8e9debeef847))
+    (instances
+      (project "FLIPPER_CAN_BUS"
+        (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "CanBus"
+        (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "CanBus-rescue:C-Device") (at 19.685 56.134 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4dce59ae-9817-4390-9928-6843baafbbcd)
+    (property "Reference" "C4" (at 17.526 57.023 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "22pf" (at 19.685 59.309 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 23.495 57.0992 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/40/C0GNP0_Dielectric-951274.pdf" (at 19.685 56.134 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "0805YA220JAT2A" (at 19.685 56.134 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufactura" "Mouser" (at 19.685 56.134 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2ebddd42-796b-4bd5-bb2a-0e4dd69c74eb))
+    (pin "2" (uuid f6fae5e6-d7a2-42bc-a5f0-de41939d82fe))
+    (instances
+      (project "FLIPPER_CAN_BUS"
+        (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "CanBus"
+        (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2668,7 +2682,7 @@
   (symbol (lib_id "power:+5V") (at 152.527 28.956 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51634d5c-c3f1-47eb-85e5-eef66198e69e)
-    (property "Reference" "#PWR04" (at 152.527 32.766 0)
+    (property "Reference" "#PWR05" (at 152.527 32.766 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 152.527 25.146 0)
@@ -2682,9 +2696,9 @@
     )
     (pin "1" (uuid 954d405d-da0b-4614-80ed-fb47e16913cb))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2693,7 +2707,7 @@
   (symbol (lib_id "power:+3V3") (at 146.558 94.488 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 543873af-aa0e-414b-9855-4d4466be5a3d)
-    (property "Reference" "#PWR018" (at 146.558 98.298 0)
+    (property "Reference" "#PWR021" (at 146.558 98.298 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 146.558 90.932 0)
@@ -2707,9 +2721,9 @@
     )
     (pin "1" (uuid b6e89abe-5030-4aa5-ad9f-6e45e180f9af))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2718,7 +2732,7 @@
   (symbol (lib_id "Adafruit CAN Bus FeatherWing-eagle-import:microbuilder_GND") (at 225.933 116.967 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 548e7817-aa80-4d1a-a455-1da271d8b242)
-    (property "Reference" "#U$07" (at 225.933 116.967 0)
+    (property "Reference" "#U$02" (at 225.933 116.967 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.409 119.507 0)
@@ -2732,9 +2746,9 @@
     )
     (pin "1" (uuid b38a0e99-8db2-4b27-98b5-6cf1f68f8b0b))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#U$07") (unit 1)
+          (reference "#U$02") (unit 1)
         )
       )
       (project "Adafruit CAN Bus FeatherWing"
@@ -2748,7 +2762,7 @@
   (symbol (lib_id "CanBus-rescue:C-Device") (at 225.933 100.457 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ba58b21-effd-46d4-9343-788f974a0fea)
-    (property "Reference" "C14" (at 225.044 98.298 90)
+    (property "Reference" "C8" (at 225.044 98.298 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uf" (at 222.758 100.457 90)
@@ -2757,10 +2771,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 224.9678 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 225.933 100.457 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/40/AVX_X7RDielectric_777024-1853642.pdf" (at 225.933 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "06035A220JAT4A" (at 225.933 100.457 0)
+    (property "manf#" "0805YC106KAT2A" (at 225.933 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 225.933 100.457 0)
@@ -2769,9 +2783,9 @@
     (pin "1" (uuid 3f38033c-1beb-42fe-85df-b21659203597))
     (pin "2" (uuid 8a1c1bf3-94f2-4119-9393-2ee693b35645))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C14") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "CanBus"
@@ -2785,7 +2799,7 @@
   (symbol (lib_id "CanBus-rescue:GND-power") (at 14.605 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 604e2833-bedf-4b6e-ab58-9f0fd746df1f)
-    (property "Reference" "#PWR09" (at 14.605 65.405 0)
+    (property "Reference" "#PWR011" (at 14.605 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 14.732 63.4492 0)
@@ -2799,9 +2813,9 @@
     )
     (pin "1" (uuid 0e66dab5-aa92-4a52-adfc-af0e99d03ff3))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "CanBus"
@@ -2815,7 +2829,7 @@
   (symbol (lib_id "power:+3V3") (at 201.295 106.299 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61f8a35a-5af6-42d9-8a3a-55214043875a)
-    (property "Reference" "#PWR023" (at 201.295 102.489 0)
+    (property "Reference" "#PWR022" (at 201.295 102.489 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 201.295 111.252 0)
@@ -2829,9 +2843,9 @@
     )
     (pin "1" (uuid 1c1519f3-65b5-49c1-9729-56a387196e7c))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2840,7 +2854,7 @@
   (symbol (lib_id "power:+3V3") (at 243.713 91.567 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 628a6188-89e4-45b5-9d70-f44c74dbc53f)
-    (property "Reference" "#PWR028" (at 243.713 95.377 0)
+    (property "Reference" "#PWR019" (at 243.713 95.377 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 243.713 88.011 0)
@@ -2854,9 +2868,9 @@
     )
     (pin "1" (uuid 01d16680-935f-4f4e-b418-9f7b1cd15100))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2892,6 +2906,9 @@
     (property "manf#" "PZ2.54-1*20-WZ" (at 80.645 103.886 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufactura" "LCSC" (at 80.645 103.886 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6f38f15a-5457-4872-a9f1-6d70d2f97318))
     (pin "2" (uuid faa66146-995d-4201-8dd2-bb51be933c23))
     (pin "3" (uuid 3c4b8d8a-926d-4897-ae98-efe1ee107bd0))
@@ -2906,9 +2923,9 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2931,7 +2948,7 @@
     )
     (pin "1" (uuid a8641a3e-1435-4102-a1ba-68d6d9960a74))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "#FLG01") (unit 1)
         )
@@ -2954,12 +2971,6 @@
     (property "Datasheet" "~" (at 50.165 101.473 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part Number" "" (at 50.165 101.473 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Price/Stock" "" (at 50.165 101.473 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (property "LCSC#" "C5360907" (at 50.165 101.473 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2967,6 +2978,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "manf#" "PZ2.54-1*20-WZ" (at 50.165 101.473 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufactura" "LCSC" (at 50.165 101.473 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 200df481-7193-4d86-bf49-82ec3af1ef5c))
@@ -2985,9 +2999,9 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "J5") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2996,7 +3010,7 @@
   (symbol (lib_id "CanBus-rescue:C-Device") (at 155.194 97.282 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 670003c4-7178-4827-aacf-9640b9e49afa)
-    (property "Reference" "C5" (at 154.305 95.123 90)
+    (property "Reference" "C6" (at 154.305 95.123 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uf" (at 152.019 97.282 90)
@@ -3005,10 +3019,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 154.2288 101.092 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 155.194 97.282 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/40/AVX_cx5r_776519-1853698.pdf" (at 155.194 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "06035A220JAT4A" (at 155.194 97.282 0)
+    (property "manf#" "0402YD105KAT4A" (at 155.194 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 155.194 97.282 0)
@@ -3017,9 +3031,9 @@
     (pin "1" (uuid 577ae6d8-6a1f-4ec9-b902-d8ea2bee752c))
     (pin "2" (uuid 335b1db6-709e-4f4e-8ed1-676d1a873fb5))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C5") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "CanBus"
@@ -3033,7 +3047,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 152.527 30.099 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68990681-1558-4604-a345-79839da5fe42)
-    (property "Reference" "#FLG04" (at 154.432 30.099 0)
+    (property "Reference" "#FLG02" (at 154.432 30.099 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 155.702 30.734 90)
@@ -3047,9 +3061,46 @@
     )
     (pin "1" (uuid 67d73dd1-5467-42de-8e73-f3cd42e3f20f))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "CanBus-rescue:C-Device") (at 204.724 21.082 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 69ec5b96-6816-4188-a1f2-616736be8176)
+    (property "Reference" "C1" (at 203.835 23.241 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "47pf" (at 201.549 21.082 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 203.7588 17.272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/212/KEM_C1022_C0G_AUTO_SMD-1093282.pdf" (at 204.724 21.082 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "C0603C470J4GACAUTO" (at 204.724 21.082 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufactura" "Mouser" (at 204.724 21.082 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bc794b27-a858-4696-9331-a3786c982378))
+    (pin "2" (uuid aef6ae98-6639-4691-bc57-0b7567fbf713))
+    (instances
+      (project "FLIPPER_CAN_BUS"
+        (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "CanBus"
+        (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3058,7 +3109,7 @@
   (symbol (lib_id "PESD1CAN:PESD1CAN") (at 235.839 33.528 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cd213d6-b2c5-4c06-bd5d-ee7b1cb738c6)
-    (property "Reference" "D2" (at 240.919 48.133 0)
+    (property "Reference" "D1" (at 240.919 48.133 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PESD1CAN" (at 240.919 45.593 0)
@@ -3067,19 +3118,22 @@
     (property "Footprint" "SOT23-3" (at 235.839 33.528 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Datasheet" "" (at 235.839 33.528 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/916/PESD1CAN_U-2938423.pdf" (at 235.839 33.528 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PROD_ID" "DIO-12501" (at 235.839 33.528 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    (property "manf#" "PESD1CAN-UX" (at 235.839 33.528 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufactura" "Mouser" (at 235.839 33.528 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 08c0c01a-9469-41a8-a956-ba391c7e7851))
     (pin "2" (uuid caaf149f-f8f2-46c6-82fa-7d1be983f735))
     (pin "3" (uuid 2d81218f-5e21-4c83-8ae2-bfb49aa0ef38))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -3088,7 +3142,7 @@
   (symbol (lib_id "Adafruit CAN Bus FeatherWing-eagle-import:microbuilder_GND") (at 243.713 116.967 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e7643cc-b2f7-4dce-aa8d-961d91d2d664)
-    (property "Reference" "#U$09" (at 243.713 116.967 0)
+    (property "Reference" "#U$04" (at 243.713 116.967 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.189 119.507 0)
@@ -3102,9 +3156,9 @@
     )
     (pin "1" (uuid 912905ff-735c-43ca-83ff-3b2c7982657f))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#U$09") (unit 1)
+          (reference "#U$04") (unit 1)
         )
       )
       (project "Adafruit CAN Bus FeatherWing"
@@ -3115,10 +3169,47 @@
     )
   )
 
+  (symbol (lib_id "CanBus-rescue:C-Device") (at 58.039 23.368 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 71787f39-2184-4531-8507-becd8907bb81)
+    (property "Reference" "C2" (at 55.88 24.257 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0.1uf" (at 58.039 26.543 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 61.849 24.3332 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" (at 58.039 23.368 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "0603F104Z160CT" (at 58.039 23.368 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufactura" "Mouser" (at 58.039 23.368 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 81bd67c9-3abb-4416-b403-7009083ed010))
+    (pin "2" (uuid d60177ea-5fdb-4117-ab6c-400646f566c5))
+    (instances
+      (project "FLIPPER_CAN_BUS"
+        (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "CanBus"
+        (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "CanBus-rescue:GND-power") (at 36.576 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 763d0127-edaa-4247-b0ba-b2057dc1993c)
-    (property "Reference" "#PWR08" (at 36.576 64.135 0)
+    (property "Reference" "#PWR010" (at 36.576 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.703 62.1792 0)
@@ -3132,9 +3223,9 @@
     )
     (pin "1" (uuid 81ef87e9-a08d-4607-8da3-fdb35e8bd5e6))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "CanBus"
@@ -3148,7 +3239,7 @@
   (symbol (lib_id "power:GND") (at 152.527 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b37e3dc-695b-4d24-88bb-7ea0da14e67b)
-    (property "Reference" "#PWR07" (at 152.527 60.96 0)
+    (property "Reference" "#PWR09" (at 152.527 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.527 59.563 0)
@@ -3162,9 +3253,9 @@
     )
     (pin "1" (uuid 6faf536e-b1e8-4424-92d2-78602325283f))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3173,7 +3264,7 @@
   (symbol (lib_id "Adafruit CAN Bus FeatherWing-eagle-import:microbuilder_GND") (at 236.093 116.967 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b867dcc-3d1a-4a4b-82bf-5b459495746d)
-    (property "Reference" "#U$08" (at 236.093 116.967 0)
+    (property "Reference" "#U$03" (at 236.093 116.967 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.569 119.507 0)
@@ -3187,9 +3278,9 @@
     )
     (pin "1" (uuid e2f8a4fc-f9a5-46de-ad03-b9d0deaf3aaf))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#U$08") (unit 1)
+          (reference "#U$03") (unit 1)
         )
       )
       (project "Adafruit CAN Bus FeatherWing"
@@ -3203,7 +3294,7 @@
   (symbol (lib_id "power:GND") (at 203.2 109.982 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87a210ce-9d50-41a1-bd73-95c0e4233112)
-    (property "Reference" "#PWR022" (at 203.2 116.332 0)
+    (property "Reference" "#PWR023" (at 203.2 116.332 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 114.554 0)
@@ -3217,9 +3308,9 @@
     )
     (pin "1" (uuid 71998c08-d165-4662-bbd2-7cdf09a81f88))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3228,7 +3319,7 @@
   (symbol (lib_id "power:GND") (at 253.619 38.608 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a865895-228c-4466-9824-1bd59ccbc829)
-    (property "Reference" "#PWR015" (at 259.969 38.608 0)
+    (property "Reference" "#PWR06" (at 259.969 38.608 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 257.81 39.243 90)
@@ -3242,9 +3333,9 @@
     )
     (pin "1" (uuid f20b8af0-428c-458a-8d4d-3e706066ad44))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3253,7 +3344,7 @@
   (symbol (lib_id "CanBus-rescue:+3V3-power") (at 40.894 22.733 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8db14936-795e-44ff-bf31-a2900700e9bd)
-    (property "Reference" "#PWR02" (at 40.894 26.543 0)
+    (property "Reference" "#PWR03" (at 40.894 26.543 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 41.275 18.3388 0)
@@ -3267,54 +3358,14 @@
     )
     (pin "1" (uuid 5bfec24f-a591-46bd-b8ce-9290317b0397))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "CanBus"
         (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
           (reference "#PWR05") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "CanBus-rescue:C-Device") (at 58.039 23.368 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9ce1f94b-bf83-46a9-b4f4-7fb06d8e2ba3)
-    (property "Reference" "C1" (at 58.039 16.9672 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" ".1uf" (at 58.039 19.2786 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 54.229 24.3332 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 58.039 23.368 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "#LCSC" "C387984" (at 58.039 23.368 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "#Manf" "0603F104Z160CT" (at 58.039 23.368 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufactura" "LCSC" (at 58.039 23.368 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cf5bdcf5-b405-4a95-9091-6ae9ba5d8076))
-    (pin "2" (uuid 8a2b7187-3a69-4969-821f-2052532e37af))
-    (instances
-      (project "can bus"
-        (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C1") (unit 1)
-        )
-      )
-      (project "CanBus"
-        (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
-          (reference "C4") (unit 1)
         )
       )
     )
@@ -3332,10 +3383,10 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 39.116 30.226 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 40.894 30.226 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/427/crcwce3-1762584.pdf" (at 40.894 30.226 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "CRCW080510K0FKEAC" (at 40.894 30.226 0)
+    (property "manf#" "CRCW080510K0FKEAC" (at 40.894 30.226 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 40.894 30.226 0)
@@ -3344,7 +3395,7 @@
     (pin "1" (uuid 048d8f43-39de-4162-92d0-239642bd935f))
     (pin "2" (uuid 319a1657-25f0-4e86-a8be-430fe7e533c6))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "R1") (unit 1)
         )
@@ -3352,43 +3403,6 @@
       (project "CanBus"
         (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
           (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "CanBus-rescue:C-Device") (at 19.685 48.514 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a42164e9-68da-44c9-98a0-0b449d3859df)
-    (property "Reference" "C3" (at 22.098 47.371 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22pf" (at 19.685 45.085 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 15.875 49.4792 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 19.685 48.514 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "#Manf" "06035A220JAT4A" (at 19.685 48.514 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufactura" "Mouser" (at 19.685 48.514 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid df431d4d-725e-48cd-b595-76c641691968))
-    (pin "2" (uuid 66e96f47-ecf8-4f3c-8aa9-adf8e045ea94))
-    (instances
-      (project "can bus"
-        (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C3") (unit 1)
-        )
-      )
-      (project "CanBus"
-        (path "/e31c67c6-b381-4f73-851f-c2ccc4a90762"
-          (reference "C1") (unit 1)
         )
       )
     )
@@ -3397,7 +3411,7 @@
   (symbol (lib_id "CanBus-rescue:GND-power") (at 64.135 67.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a999b2a7-707b-4f53-a5cd-15575f16c056)
-    (property "Reference" "#PWR010" (at 64.135 74.295 0)
+    (property "Reference" "#PWR013" (at 64.135 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.262 72.3392 0)
@@ -3411,9 +3425,9 @@
     )
     (pin "1" (uuid 6ce0b8ec-d9c4-4bc8-9c10-8c28706f0b90))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "CanBus"
@@ -3439,13 +3453,13 @@
     (property "Datasheet" "https://www.mouser.mx/datasheet/2/268/MCP2515-Stand-Alone-CAN-Controller-with-SPI-200018-708845.pdf" (at 66.675 66.548 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "MCP2515-I/ST" (at 64.135 46.228 0)
+    (property "manf#" "MCP2515-I/ST" (at 64.135 46.228 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#LCSC" "C15193" (at 64.135 46.228 0)
+    (property "LCSC#" "C15193" (at 64.135 46.228 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufactura" "LCSC" (at 64.135 46.228 0)
+    (property "Manufactura" "Mouser" (at 64.135 46.228 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 90aa9bda-31b1-4107-9129-b045b74058d8))
@@ -3469,7 +3483,7 @@
     (pin "8" (uuid c8e9e156-d6fe-45d6-b9f7-64d41c4b3e26))
     (pin "9" (uuid 9cea7e1d-5240-4937-8c92-6be76458ff96))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "U2") (unit 1)
         )
@@ -3485,7 +3499,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 252.603 38.608 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4e3960c-f53d-4f06-a8e2-ca13c4faffe5)
-    (property "Reference" "#FLG02" (at 252.603 36.703 0)
+    (property "Reference" "#FLG03" (at 252.603 36.703 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 252.603 34.29 0)
@@ -3499,9 +3513,9 @@
     )
     (pin "1" (uuid 39817762-40c8-4321-a9f4-c34b14be062f))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -3522,7 +3536,7 @@
     (property "Datasheet" "~" (at 276.352 37.084 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "---" (at 276.352 37.084 0)
+    (property "manf#" "---" (at 276.352 37.084 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Steren " (at 276.352 37.084 0)
@@ -3531,7 +3545,7 @@
     (pin "1" (uuid f8a0ef80-dc50-4fc1-9983-9507fb064c9f))
     (pin "2" (uuid 8b1ef790-d458-4bda-bcab-634451da6b77))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "J1") (unit 1)
         )
@@ -3561,7 +3575,7 @@
     )
     (pin "1" (uuid 95b9c21b-1ca8-47c8-8e18-285175524498))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "#GND01") (unit 1)
         )
@@ -3574,26 +3588,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 204.724 17.272 180) (unit 1)
+  (symbol (lib_id "power:GND") (at 199.644 17.272 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3e2b3be-e269-46bb-a0f1-6367fc38551c)
-    (property "Reference" "#PWR013" (at 204.724 10.922 0)
+    (property "Reference" "#PWR01" (at 199.644 23.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 204.724 13.97 0)
+    (property "Value" "GND" (at 199.644 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 204.724 17.272 0)
+    (property "Footprint" "" (at 199.644 17.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 204.724 17.272 0)
+    (property "Datasheet" "" (at 199.644 17.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 32eb66cf-064b-437c-873f-a0f2c8ca256f))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3602,7 +3616,7 @@
   (symbol (lib_id "power:GND") (at 146.558 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbe83703-ff81-4b12-b036-8ece04dd4a2e)
-    (property "Reference" "#PWR019" (at 146.558 119.38 0)
+    (property "Reference" "#PWR025" (at 146.558 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.558 117.602 0)
@@ -3616,9 +3630,9 @@
     )
     (pin "1" (uuid 9efff409-cd52-488c-83fc-7d229864b5ec))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3627,7 +3641,7 @@
   (symbol (lib_id "CanBus-rescue:C-Device") (at 218.313 100.457 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d11b2846-3add-4b62-b553-22a40ca46196)
-    (property "Reference" "C9" (at 217.424 98.298 90)
+    (property "Reference" "C7" (at 217.424 98.298 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uf" (at 215.138 100.457 90)
@@ -3636,10 +3650,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 217.3478 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 218.313 100.457 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" (at 218.313 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "06035A220JAT4A" (at 218.313 100.457 0)
+    (property "manf#" "0603F104Z160CT" (at 218.313 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 218.313 100.457 0)
@@ -3648,9 +3662,9 @@
     (pin "1" (uuid 932cb4f8-3b94-415b-a1b8-f4eec7b4ae6a))
     (pin "2" (uuid d64edb76-b551-4b92-8095-4f4eaa37e317))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "CanBus"
@@ -3664,7 +3678,7 @@
   (symbol (lib_id "power:+5V") (at 271.653 91.567 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d22a2577-b855-4fe5-9061-85e938e822f0)
-    (property "Reference" "#PWR026" (at 271.653 95.377 0)
+    (property "Reference" "#PWR020" (at 271.653 95.377 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 271.653 87.249 0)
@@ -3678,9 +3692,9 @@
     )
     (pin "1" (uuid 11e51c71-7759-4b67-adac-b99fe8e88a75))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3698,7 +3712,13 @@
     (property "Footprint" "SOT96-1" (at 152.527 41.148 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Datasheet" "" (at 152.527 41.148 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/302/TJA1051-3083392.pdf" (at 152.527 41.148 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "TJA1051T/3,118" (at 152.527 41.148 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufactura" "Mouser" (at 152.527 41.148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5e8291d5-f27a-485a-893e-ff63c162bc03))
@@ -3710,7 +3730,7 @@
     (pin "7" (uuid b12eb6aa-0f97-41e9-96a8-411757900f80))
     (pin "8" (uuid 35db8e61-3915-46d6-a7b5-60861956a100))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "U1") (unit 1)
         )
@@ -3730,10 +3750,10 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 270.6878 104.267 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 271.653 100.457 0)
+    (property "Datasheet" "https://www.mouser.mx/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" (at 271.653 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "#Manf" "06035A220JAT4A" (at 271.653 100.457 0)
+    (property "manf#" "0603F104Z160CT" (at 271.653 100.457 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufactura" "Mouser" (at 271.653 100.457 0)
@@ -3742,7 +3762,7 @@
     (pin "1" (uuid bce0ba7a-f6d4-4015-a4c0-8422b74a699b))
     (pin "2" (uuid bd59193f-4ca7-4808-a038-c41a6376b820))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
           (reference "C11") (unit 1)
         )
@@ -3758,7 +3778,7 @@
   (symbol (lib_id "Adafruit CAN Bus FeatherWing-eagle-import:microbuilder_GND") (at 218.313 116.967 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db97e0f4-c3c3-4563-b220-ba26432c15f7)
-    (property "Reference" "#U$06" (at 218.313 116.967 0)
+    (property "Reference" "#U$01" (at 218.313 116.967 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 216.789 119.507 0)
@@ -3772,9 +3792,9 @@
     )
     (pin "1" (uuid ed31c633-8acf-4ab8-8945-59b7dc0ffeaf))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#U$06") (unit 1)
+          (reference "#U$01") (unit 1)
         )
       )
       (project "Adafruit CAN Bus FeatherWing"
@@ -3788,7 +3808,7 @@
   (symbol (lib_id "power:+5V") (at 208.153 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e218d3da-be30-495e-b3ca-ae87b5d5690a)
-    (property "Reference" "#PWR020" (at 208.153 95.25 0)
+    (property "Reference" "#PWR015" (at 208.153 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 208.153 87.122 0)
@@ -3802,9 +3822,9 @@
     )
     (pin "1" (uuid cff7c032-ea0a-4093-9668-43baf748be8b))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3813,7 +3833,7 @@
   (symbol (lib_id "power:+5V") (at 225.933 91.567 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f122f93f-158a-4cb5-88a4-6fa93090c51e)
-    (property "Reference" "#PWR025" (at 225.933 95.377 0)
+    (property "Reference" "#PWR017" (at 225.933 95.377 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 225.933 87.249 0)
@@ -3827,9 +3847,9 @@
     )
     (pin "1" (uuid a53edf92-7bee-4335-a117-892d51e4acf7))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -3838,7 +3858,7 @@
   (symbol (lib_id "power:GND") (at 130.81 53.213 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fcd7f171-8d80-4f46-b915-6e31e3c78a7c)
-    (property "Reference" "#PWR016" (at 130.81 59.563 0)
+    (property "Reference" "#PWR08" (at 130.81 59.563 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 58.42 0)
@@ -3852,9 +3872,9 @@
     )
     (pin "1" (uuid 6c5088b6-f443-4049-aaa8-0089f0f9ae8b))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3863,7 +3883,7 @@
   (symbol (lib_id "CanBus-rescue:+3V3-power") (at 64.135 22.098 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffbf1dac-efee-4b37-b561-c64dfe53a9c3)
-    (property "Reference" "#PWR01" (at 64.135 25.908 0)
+    (property "Reference" "#PWR02" (at 64.135 25.908 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 64.516 17.7038 0)
@@ -3877,9 +3897,9 @@
     )
     (pin "1" (uuid 88f47186-9571-40c8-aec6-94423e22824d))
     (instances
-      (project "can bus"
+      (project "FLIPPER_CAN_BUS"
         (path "/6d4c1f58-527c-4281-ae08-39817909ce34"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "CanBus"
