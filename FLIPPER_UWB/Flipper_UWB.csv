@@ -1,0 +1,7 @@
+"Reference","Value","Footprint","LCSC#","manf#","Cdad"
+"C1","100uF","Capacitor_SMD:C_0805_2012Metric","","581-TLCR107M006RTA","1"
+"D1-D4","LED","LED_SMD:LED_0805_2012Metric","-- valores mixtos --","-- valores mixtos --","4"
+"IC1","DWM1000","RF_Module:DWM1000","","772-DWM1000","1"
+"J1","Conn_01x08_Socket","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal","C5360907","PZ2.54-1*20-WZ","1"
+"J2","Conn_01x10_Socket","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal","C5360907","PZ2.54-1*20-WZ","1"
+"R1-R5","1K","Resistor_SMD:R_0805_2012Metric","C25623","0805W8J0102T5E","5"
