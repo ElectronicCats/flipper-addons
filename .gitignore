@@ -41,3 +41,5 @@ FLIPPER_MAGSPOOF/mags-backups/
 MARAUDER_SPOOF/marauder_spoof-backups/
 
 *.kicad_sch-bak
+
+*.zip
