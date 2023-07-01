@@ -1474,7 +1474,7 @@
       (net 5 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 89c81c12-dd26-4404-bcb3-5af90f8a39ac))
     (pad "41" thru_hole circle (at -0.1 0.01) (size 0.6 0.6) (drill 0.2) (property pad_prop_heatsink) (layers "*.Cu" "F.Mask")
       (net 5 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 8e90f44b-98f9-4baf-9f7c-428c1a562d7b))
-    (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S3-WROOM-1U.wrl"
+    (model ":KICAD7_3DMODEL_DIR:RF_Module.3dshapes/ESP32-WROOM-32U.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
