@@ -6,7 +6,7 @@
 "5","J3","1","Conn_01x08_Socket","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","","C2894950","PZ254-1-08-W-8.5",""
 "6","J6","1","GPS","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","","","",""
 "7","P1","1","USB_C_Plug_USB2.0","Connectors:C393939","","C2760486","TYPE-C-31-M-31","LCSC"
-"8","Q1, Q2","2","DMP2004TK-7","Package_TO_SOT_SMD:SOT-23","","","DMP2004TK-7","MOUSER"
+"8","Q1, Q2","2","DMP2004TK-7","Package_TO_SOT_SMD:SOT-523","","","DMP2004TK-7","MOUSER"
 "9","R1, R2, R5, R6","4","10K","Resistor_SMD:R_0603_1608Metric","","C217281","CR-03JL7---10K","LCSC"
 "10","R3, R4","2","5k1","Resistor_SMD:R_0603_1608Metric","","C191782","ERJ3RBD5101V","LCSC"
 "11","R7","1","150","Resistor_SMD:R_0603_1608Metric","","C2692872","","LCSC"
