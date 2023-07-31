@@ -1,5 +1,12 @@
 # Flipper shields Electronic Cats
+  Our collection of addons for Flipper, electronic boards that add extra functions to the most famous hacking board.
+
+## Working
+- Marauder Magspoof
+- SubGiga LoRa
+- Magspoof
   
+ ## Prototypes
 - UWB
 - CanBus
 
