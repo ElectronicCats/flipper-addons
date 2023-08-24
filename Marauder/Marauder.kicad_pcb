@@ -10926,7 +10926,7 @@
 
   (footprint "Aesthetics:electronic_cats_logo_4x3" (layer "B.Cu")
     (tstamp e8bdf345-1e9a-4444-8fe2-059637bf54ff)
-    (at 159.76 77.68 180)
+    (at 160.070782 75.782253 180)
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -13434,6 +13434,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp dede44a9-07fc-47e8-a808-a697277d6679))
   (gr_line (start 114.51 94.43) (end 114.508414 70.43)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f82631e6-e244-49a1-bbfe-9c28ff631f1b))
+  (gr_text "Flipper Add-On\nMarauder \n v1.1\n" (at 160.190782 82.392253) (layer "B.SilkS") (tstamp e9878f64-4666-47ae-887f-06ad0b11302a)
+    (effects (font (size 1 1) (thickness 0.25) bold) (justify mirror))
+  )
   (gr_text "Flipper Add-On\nMarauder \n v1.1\n" (at 174.07 86.12) (layer "F.SilkS") (tstamp d5ab90d9-00b1-4e2a-a8b8-26b39cbe4014)
     (effects (font (size 1 1) (thickness 0.25) bold))
   )
