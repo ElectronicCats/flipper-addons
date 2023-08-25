@@ -1,5 +1,6 @@
-# Flipper shields Electronic Cats
-  Our collection of addons for Flipper, electronic boards that add extra functions to the most famous hacking board.
+# Electronic Cats Flipper shields 😼 :dolphin: 
+
+This repository contains a collection of our addons for Flipper, the open-source hardware platform for hacking and security research.
 
 ## Working
 - Marauder Magspoof
@@ -9,6 +10,14 @@
  ## Prototypes
 - UWB
 - CanBus
+
+##  Wiki and Getting Started
+[**Learn about each addon in our wiki**](https://github.com/ElectronicCats/flipper-shields/wiki)
+
+<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
+  <img src="https://user-images.githubusercontent.com/107638696/263117497-6a808ad7-dbad-47d1-88da-059df876c544.png" />
+</a>
+
 
 ## Maintainer
 
