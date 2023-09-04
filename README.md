@@ -1,18 +1,18 @@
 # Electronic Cats Flipper shields 😼 :dolphin: 
 
-This repository contains a collection of our addons for Flipper, the open-source hardware platform for hacking and security research.
+This repository contains a collection of our Add-Ons for Flipper, the open-source hardware platform for hacking and security research.
 
 ## Working
 - Marauder Magspoof
 - SubGiga LoRa
-- Magspoof
+- MagSpoof
   
  ## Prototypes
 - UWB
 - CanBus
 
 ##  Wiki and Getting Started
-[**Learn about each addon in our wiki**](https://github.com/ElectronicCats/flipper-shields/wiki)
+[**Learn about each Add-On in our wiki**](https://github.com/ElectronicCats/flipper-shields/wiki)
 
 <a href="https://github.com/ElectronicCats/flipper-shields/wiki">
   <img src="https://user-images.githubusercontent.com/107638696/263117497-6a808ad7-dbad-47d1-88da-059df876c544.png" />
