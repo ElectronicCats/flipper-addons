@@ -18,6 +18,15 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
   <img src="https://user-images.githubusercontent.com/107638696/263117497-6a808ad7-dbad-47d1-88da-059df876c544.png" />
 </a>
 
+## License
+
+
+<a
+href="https://github.com/ElectronicCats">
+
+<img  src="https://github.com/ElectronicCats/AjoloteBoard/raw/master/OpenSourceLicense.png"  height="200" />
+
+</a>
 
 ## Maintainer
 
