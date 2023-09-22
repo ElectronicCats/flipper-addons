@@ -5209,7 +5209,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 275.209 111.252 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid d20a1998-2668-4fa2-a54c-fe7bcc85fb3b)
     (property "Reference" "R8" (at 271.2212 110.109 0)
       (effects (font (size 1.27 1.27)) (justify left))

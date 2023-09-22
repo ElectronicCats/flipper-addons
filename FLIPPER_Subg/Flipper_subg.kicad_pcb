@@ -4559,7 +4559,7 @@
 
   (footprint "kibuzzard-649F737D" (layer "F.Cu")
     (tstamp bf6cf195-9223-4719-a183-61ac1ba038fb)
-    (at 143.9 99.3)
+    (at 140.58 100.12)
     (descr "Generated with KiBuzzard")
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJCZXJrZWxleU1vbm8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjAuNiIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICJDQzExMCIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICI1IiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICI1IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiNSIsICJQYWRkaW5nVG9wQ3RybCI6ICI1IiwgIldpZHRoQ3RybCI6ICIifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
