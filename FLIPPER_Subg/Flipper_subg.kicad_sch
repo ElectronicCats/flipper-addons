@@ -1031,12 +1031,12 @@
         )
       )
       (symbol "Antenna_Shield_1_1"
-        (pin input line (at 0 -5.08 90) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
         (pin input line (at 2.54 -5.08 90) (length 2.54)
           (name "Shield" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -5.08 90) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at 2.54 -5.08 90) (length 2.54)
@@ -3874,8 +3874,8 @@
     (property "LCSC#" "C411563" (at 203.4286 39.4716 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4759a0a5-cf64-44da-b95d-b530766c4bfe))
     (pin "2" (uuid d0a57ea2-a9d0-4621-b072-558c248d72d1))
+    (pin "1" (uuid 4759a0a5-cf64-44da-b95d-b530766c4bfe))
     (pin "3" (uuid c75db265-7b5b-4647-b56c-9c49643e7111))
     (instances
       (project "Flipper_subg"
