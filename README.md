@@ -2,6 +2,20 @@
 
 This repository contains a collection of our Add-Ons for Flipper, the open-source hardware platform for hacking and security research.
 
+<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
+  <img src="https://user-images.githubusercontent.com/107638696/263117497-6a808ad7-dbad-47d1-88da-059df876c544.png" />
+</a>
+
+<p align=center>
+<a href="https://electroniccats.com/?s=Flipper+Add-On&post_type=product&product_cat=">
+  <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
+</a>
+<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
+  <img src="https://github.com/ElectronicCats/flipper-shields/assets/44976441/6aa7f319-3256-442e-a00d-33c8126833ec" width="200" height="104" />
+</a>
+</p>
+
+
 ## Working
 - Marauder Magspoof
 - SubGiga LoRa
@@ -11,23 +25,16 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 - UWB
 - CanBus
 
-##  Wiki and Getting Started
-[**Learn about each Add-On in our wiki**](https://github.com/ElectronicCats/flipper-shields/wiki)
-
-<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
-  <img src="https://user-images.githubusercontent.com/107638696/263117497-6a808ad7-dbad-47d1-88da-059df876c544.png" />
-</a>
 
 ## Maintainer
 
-<a
-href="https://github.com/sponsors/ElectronicCats">
-
-<img  src="https://electroniccats.com/wp-content/uploads/2020/07/Badge_GHS.png"  height="104" />
-
+<p align=center>
+<a href="https://github.com/sponsors/ElectronicCats">
+  <img src="https://electroniccats.com/wp-content/uploads/2020/07/Badge_GHS.png" width="200" height="104" />
 </a>
+</p>
 
-Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
+Electronic Cats invests time and resources providing this open-source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
 
 ## License
 
