@@ -456,7 +456,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Flipper_subg.step",
       "vrml": "Flipper.wrl"
     },
     "page_layout_descr_file": ""

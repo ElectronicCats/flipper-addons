@@ -383,9 +383,9 @@
     (pad "8" thru_hole oval (at 0 17.78 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 9 "+5V") (pinfunction "Pin_1") (pintype "passive") (tstamp e3c06f4d-d1a3-490c-937a-dd30b2c69ba8))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Horizontal.wrl"
-      (offset (xyz 0 -17.75 -1))
+      (offset (xyz 0 -0.01 -1))
       (scale (xyz 1 1 1))
-      (rotate (xyz 180 0 0))
+      (rotate (xyz 180 180 180))
     )
   )
 
@@ -1549,8 +1549,8 @@
       (net 9 "+5V") (pinfunction "C") (pintype "passive") (tstamp 717f10f6-04d8-462a-ba62-1a789832ab0c))
     (pad "4" thru_hole circle (at -3.4 1.75 270) (size 1.4 1.4) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 0073a3cb-73c8-4481-9d71-f6387e87a3f8))
     (pad "5" thru_hole circle (at 3.4 1.75 270) (size 1.4 1.4) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 162eabea-9bdf-4d44-97d7-8d786c5cf861))
-    (model "C:/Users/Admin/Documents/GitHub/flipper-shields/footprintsg/3D/JS102011SAQN--3DModel-Eagle-1.STEP"
-      (offset (xyz 0 -2.25 0))
+    (model "${KIPRJMOD}/Library/3D/JS102011SAQN--3DModel-Eagle-1.STEP"
+      (offset (xyz 0 -1.9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -2191,11 +2191,11 @@
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6488F75A" (at 0 -3.722793) (layer "F.SilkS") hide
         (effects (font (size 0 0) (thickness 0.15)))
-      (tstamp 90cb1593-d8b4-49e3-a232-63d014244cbd)
+      (tstamp 20987166-310c-4ae0-8831-1d1726ec6348)
     )
     (fp_text value "G***" (at 0 3.722793) (layer "F.SilkS") hide
         (effects (font (size 0 0) (thickness 0.15)))
-      (tstamp cfe31977-4929-4467-b211-d085efdf0ce8)
+      (tstamp 922b598c-c9fd-4512-8378-747cb8c2c634)
     )
     (fp_poly
       (pts
@@ -2429,7 +2429,7 @@
         (xy -1.236345 -0.674793)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp b5eb926b-9849-4eb1-8115-f25bb18c7157))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 43a2487c-b937-4686-9247-2adadf6e7ae8))
   )
 
   (footprint "kibuzzard-6488EEAF" (layer "F.Cu")
@@ -2614,12 +2614,12 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIuOCIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICI1ViIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICI1IiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICI1IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiNSIsICJQYWRkaW5nVG9wQ3RybCI6ICI1IiwgIldpZHRoQ3RybCI6ICIifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-649DB344" (at 0 -3.713903 90) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
-      (tstamp 295b0e0e-c1c1-4cb8-8fa2-6aee49b3c758)
+        (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp abc585d0-248b-4471-8f18-839e0d86ad97)
     )
     (fp_text value "G***" (at 0 3.713903 90) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
-      (tstamp 3cf26b2c-4ac0-49e6-a6fa-371dd3dd7b1a)
+        (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp b389a871-e9f7-4b1e-8d2f-551a417bda58)
     )
     (fp_poly
       (pts
@@ -2779,7 +2779,7 @@
         (xy -0.605155 -0.665903)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp f8f09a50-1c06-49c8-8758-9b6172b95109))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp cf59491d-f09b-4824-87f0-2d33feac844e))
   )
 
   (footprint "kibuzzard-648B9401" (layer "F.Cu")
@@ -4521,9 +4521,9 @@
     (pad "10" thru_hole oval (at 0 22.86 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 8 "+3V3") (pinfunction "Pin_1") (pintype "passive") (tstamp e7b9fa6d-355c-4ac5-9e51-058d93f65f5b))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Horizontal.wrl"
-      (offset (xyz 0 -22.75 -1))
+      (offset (xyz 0 -0.02 -1))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 180 180))
+      (rotate (xyz 0 0 0))
     )
   )
 

@@ -1280,7 +1280,7 @@
       (net 6 "Net-(U2-XOSC_Q1)") (pinfunction "3") (pintype "passive") (tstamp 90c7a7de-e2b1-497f-afd2-69a41ace56f1))
     (pad "4" smd rect (at -0.875 -0.7 270) (size 1.15 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "GND") (pinfunction "4") (pintype "passive") (tstamp a9d5d826-b50d-4ebd-823d-01d5a354a93e))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2520-4Pin_2.5x2.0mm.wrl"
+    (model "${KIPRJMOD}/library/3D/FA-20H_SEC.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1625,11 +1625,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiLyIsICJDYXBSaWdodENob2ljZSI6ICIvIiwgIkZvbnRDb21ib0JveCI6ICJCZXJrZWxleU1vbm8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjAuNiIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICJ2MS4xIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjUiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjUiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICI1IiwgIlBhZGRpbmdUb3BDdHJsIjogIjUiLCAiV2lkdGhDdHJsIjogIiJ9")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6509D759" (at 0 -3.570288) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 5517d33a-4fdb-48dd-a77d-472ac4e3ad71)
     )
     (fp_text value "G***" (at 0 3.570288) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 5b66313f-8636-4886-9892-15c2202546e1)
     )
     (fp_poly
@@ -4641,7 +4641,12 @@
       (net 24 "/XTA") (pinfunction "3") (pintype "passive") (tstamp a7bf51c3-9953-47b4-8626-21ba3a9f908f))
     (pad "4" smd rect (at -0.875 -0.7) (size 1.15 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "GND") (pinfunction "4") (pintype "passive") (tstamp 6f3207d2-0edc-45bd-b332-6b9cdafc597b))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2520-4Pin_2.5x2.0mm.wrl"
+    (model "${KIPRJMOD}/library/3D/SON4_Q24FA20H00044FA-20H16MHZ9_0PF_EPS.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/library/3D/FA-20H_SEC.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5444,6 +5449,11 @@
       (net 5 "GND") (pinfunction "GND") (pintype "input") (tstamp b63a7261-caea-4f69-8c1f-cc18b607b292))
     (pad "10" smd rect (at 2.05 0 90) (size 0.9 0.3) (drill (offset 0.1 0)) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "GND") (pinfunction "GND") (pintype "input") (tstamp 11fca610-3e0e-400d-ad08-3eecddbb88f6))
+    (model "${KIPRJMOD}/library/3D/0900FM15D0039E_JOT.step"
+      (offset (xyz 1 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (layer "B.Cu")
