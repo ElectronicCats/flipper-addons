@@ -173,13 +173,22 @@
       ],
       "track_widths": [
         0.0,
-        0.0,
-        0.5
+        0.2,
+        0.25,
+        0.3
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -395,7 +404,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -407,7 +416,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FLIPPER_CAN_BUS.kicad_pro",
+    "filename": "CANBUS_Flipper.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -484,7 +493,7 @@
   },
   "sheets": [
     [
-      "6d4c1f58-527c-4281-ae08-39817909ce34",
+      "8c23e026-b908-4d4a-84cd-fb733847c38f",
       ""
     ]
   ],
