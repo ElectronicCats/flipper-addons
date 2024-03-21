@@ -8493,7 +8493,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ea346c5b-8200-4523-8fef-8d66f1b2af73")
 	)
-	(gr_text "FLIPPER SHIELD\nCANBUS V1.0"
+	(gr_text "FLIPPER SHIELD\nCANBUS V1.1"
 		(at 139.446 100.584 0)
 		(layer "B.SilkS")
 		(uuid "c2112ecf-69a8-4d57-96c3-9b74a70025b9")
