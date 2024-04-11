@@ -2131,6 +2131,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 31.75) (xy 148.59 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7644ad-b58d-402f-95fd-73cea5854172")
+	)
+	(wire
+		(pts
 			(xy 66.294 115.062) (xy 76.2 115.062)
 		)
 		(stroke
@@ -2171,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 51.435) (xy 148.59 55.88)
+			(xy 148.59 52.705) (xy 148.59 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +2191,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 40.64) (xy 148.59 46.355)
+			(xy 148.59 45.085) (xy 148.59 47.625)
 		)
 		(stroke
 			(width 0)
@@ -2201,13 +2211,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 32.385) (xy 148.59 38.1)
+			(xy 148.59 40.005) (xy 148.59 42.545)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38fa0b8c-47ea-4bde-8d93-a543f52c6c2b")
+		(uuid "37e504d6-ab57-40f4-8c5d-342230fbe685")
 	)
 	(wire
 		(pts
@@ -2268,6 +2278,16 @@
 			(type default)
 		)
 		(uuid "584933d1-3837-4e2c-9c8c-66ca9e6bf5f5")
+	)
+	(wire
+		(pts
+			(xy 148.59 32.385) (xy 148.59 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b9a06e-382d-4e17-b5bc-d1eddb7bff01")
 	)
 	(wire
 		(pts
@@ -2548,16 +2568,6 @@
 			(type default)
 		)
 		(uuid "e376f959-d2ff-4210-a73c-f2d964bd312b")
-	)
-	(wire
-		(pts
-			(xy 148.59 31.75) (xy 148.59 32.385)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e51a28a5-703e-4afd-adea-d4a9b974e415")
 	)
 	(wire
 		(pts
@@ -3297,7 +3307,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 148.59 48.895 0)
+		(at 148.59 50.165 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3306,7 +3316,7 @@
 		(dnp no)
 		(uuid "12cf7a9f-acc8-4bf6-b191-2f69ed8e961d")
 		(property "Reference" "R6"
-			(at 145.288 47.625 90)
+			(at 145.288 48.895 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,8 +3324,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
-			(at 146.812 47.117 90)
+		(property "Value" "60"
+			(at 146.812 48.387 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,8 +3333,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 148.59 48.895 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 148.59 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3343,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_120R-121-5_C103256.html"
-			(at 148.59 48.895 0)
+			(at 148.59 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 48.895 0)
+			(at 148.59 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,8 +3360,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RTT03121JTP"
-			(at 148.59 48.895 0)
+		(property "manf#" "71-CRCW120660R0KNAIF "
+			(at 148.59 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,8 +3369,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C103256"
-			(at 148.59 48.895 0)
+		(property "LCSC#" ""
+			(at 148.59 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3379,7 @@
 			)
 		)
 		(property "Proveedor" "LCSC"
-			(at 148.59 48.895 0)
+			(at 148.59 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4296,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 153.67 38.1 0)
+		(at 153.67 42.545 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4295,7 +4305,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e41ec70-5b4f-440f-9f87-76c881b177a0")
 		(property "Reference" "J4"
-			(at 154.94 38.1 0)
+			(at 154.94 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4314,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 154.94 40.64 0)
+			(at 154.94 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4323,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 153.67 38.1 0)
+			(at 153.67 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4332,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401281145_XUNPU-PH2-54-01-02PZD_C7501580.pdf"
-			(at 153.67 38.1 0)
+			(at 153.67 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 38.1 0)
+			(at 153.67 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4350,7 @@
 			)
 		)
 		(property "LCSC#" "C7501580"
-			(at 153.67 38.1 0)
+			(at 153.67 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4359,7 @@
 			)
 		)
 		(property "Manufactura" "LCSC"
-			(at 153.67 38.1 0)
+			(at 153.67 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4368,7 @@
 			)
 		)
 		(property "manf#" "PH2.54-01-02PZD"
-			(at 153.67 38.1 0)
+			(at 153.67 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,6 +4386,103 @@
 			(project "FLIPPER_MOD_BUS"
 				(path "/000d5789-2d2c-436e-a8f3-713f1968a92a"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 148.59 37.465 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "832bb6dc-363b-4379-a7c0-c9a86b4fb343")
+		(property "Reference" "R8"
+			(at 145.288 36.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "60"
+			(at 146.812 35.687 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 148.59 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_120R-121-5_C103256.html"
+			(at 148.59 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "71-CRCW120660R0KNAIF "
+			(at 148.59 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 148.59 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" "LCSC"
+			(at 148.59 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b1778b-8629-43c9-9aa1-07be25e7c094")
+		)
+		(pin "2"
+			(uuid "5376f5ca-eac2-4682-8e37-f91d9e950d13")
+		)
+		(instances
+			(project "FLIPPER_MOD_BUS"
+				(path "/000d5789-2d2c-436e-a8f3-713f1968a92a"
+					(reference "R8")
 					(unit 1)
 				)
 			)
