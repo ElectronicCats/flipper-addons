@@ -15,6 +15,12 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 </a>
 </p>
 
+<p align=center>
+  <a href="https://labs.ksec.co.uk/product-category/electronic-cat/">
+    <img src="https://cdn.ksec.co.uk/ksec-solutions/ksec-W-BW-MV-small-clipped.png" width="200" />
+  </a>
+</p>
+
 ## Working
 - Marauder Magspoof
 - SubGiga LoRa
