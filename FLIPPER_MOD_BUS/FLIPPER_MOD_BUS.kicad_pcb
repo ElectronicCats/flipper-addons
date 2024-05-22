@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "FLIPPER SHIELD MODBUS v1.3")
 		)
 	)
 	(net 0 "")
@@ -2015,7 +2015,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0.02 4.845 180)
+			(at 1.97 1.291 -90)
 			(layer "F.SilkS")
 			(uuid "7966fc18-8358-4c57-960d-3fce0255352c")
 			(effects
