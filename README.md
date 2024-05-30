@@ -6,6 +6,11 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
   <img src="https://user-images.githubusercontent.com/107638696/263117497-6a808ad7-dbad-47d1-88da-059df876c544.png" />
 </a>
 
+<p align="center">
+<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
+	<img src="https://github.com/ElectronicCats/flipper-shields/assets/40640735/449ecb03-ef01-40e7-8c83-a89afc3baa88" width="43%">
+</p>
+
 <p align=center>
 <a href="https://electroniccats.com/?s=Flipper+Add-On&post_type=product&product_cat=">
   <img src="https://github.com/ElectronicCats/flipper-shields/assets/44976441/0c617467-052b-4ab1-a3b9-ba36e1f55a91" width="200" height="104" />
