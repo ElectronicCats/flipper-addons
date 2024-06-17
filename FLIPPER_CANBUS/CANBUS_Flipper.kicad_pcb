@@ -1002,7 +1002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8_Handsoldering"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1014,7 +1014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Analog-Devices-Inc--Maxim-Integrated-MAX3051EKA-T_C112005.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1026,7 +1026,7 @@
 				)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1074,7 +1074,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23* SOIC*")
 		(path "/250d7b2c-4789-4a00-ab6e-01f48f8f1856")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1529,7 +1531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1553,7 +1555,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1601,7 +1603,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fb5b6571-53cf-4e67-8323-589da994cdf5")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1931,7 +1935,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1943,7 +1947,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Viking-Tech-CR-03JL7---10K_C217281.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1955,7 +1959,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2003,7 +2007,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6a432d5f-7f2d-476f-b810-1de733e6c1c7")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2175,7 +2181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2187,7 +2193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Walsin-Tech-Corp-WR06X0000FTL_C163836.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2199,7 +2205,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2235,18 +2241,6 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "171fd0fa-1e1f-4033-9ac0-727734eb3049")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "manf#" "WR06X0000FTL"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -2259,9 +2253,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4dbe9069-a46c-4529-b9eb-ffabd0507a96")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 -0.5225)
 			(end 0.254724 -0.5225)
@@ -2638,7 +2634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2650,7 +2646,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1912111437_HELE-Harmony-Elec-X2C016000B91H-R_C254270.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2662,7 +2658,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2710,7 +2706,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Crystal*")
 		(path "/9f760cd6-39cd-4079-9fc3-fb9aff3057fd")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(clearance 0.05)
 		(attr smd)
@@ -3070,7 +3068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3082,7 +3080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312310521_CONNFLY-Elec-DS1021-1x10SF11-B_C7430366.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3094,7 +3092,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3130,7 +3128,7 @@
 				)
 			)
 		)
-		(property "manf#" "PZ2.54-1*10-FWZ"
+		(property "manf#" "DS1021-1x10SF11-B"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3142,9 +3140,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a1183d01-4ab5-4409-84a9-1034f91a908a")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 24.19)
 			(end 1.33 24.19)
@@ -3456,7 +3456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3468,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401281115_XUNPU-PH2-54-01-08PZD_C7501586.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3480,7 +3480,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3516,7 +3516,7 @@
 				)
 			)
 		)
-		(property "manf#" "DS1025-02-1x8P8BR1-B"
+		(property "manf#" "PH2.54-01-08PZD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3528,9 +3528,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d43beefe-515a-432f-b0e1-030579fd3985")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 19.11)
 			(end 1.33 19.11)
@@ -3820,7 +3822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3832,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809191814_Microchip-Tech-MCP2515-I-ST_C15193.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3844,7 +3846,7 @@
 				)
 			)
 		)
-		(property "Description" "Stand-Alone CAN Controller with SPI Interface, TSSOP-20"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3892,7 +3894,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TSSOP*4.4x6.5mm*P0.65mm*")
 		(path "/6c5cd5df-f818-4a64-a7d0-eb7fc37f26df")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4410,7 +4414,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4422,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG220J500NT_C91701.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4434,7 +4438,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4482,7 +4486,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f4a0068-fb4b-4aa3-9878-e4a4d6f13fda")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4654,7 +4660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4666,7 +4672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG220J500NT_C91701.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4678,7 +4684,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4726,7 +4732,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/34db2ddf-8d7c-4fc4-905b-79114ec6b1d7")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4898,7 +4906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4910,7 +4918,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4922,7 +4930,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4970,7 +4978,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7330be06-1dd2-4a32-bdfc-a3eb2a3f1f6a")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5143,7 +5153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5155,7 +5165,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5167,7 +5177,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5215,7 +5225,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/85344ecd-6cd7-4fdb-9bc4-ec226d987298")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5387,7 +5399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5399,7 +5411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401281145_XUNPU-PH2-54-01-02PZD_C7501580.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5411,7 +5423,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5423,9 +5435,50 @@
 				)
 			)
 		)
+		(property "LCSC#" "C7501580"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35aa408c-9737-4997-9028-4fb6a968899d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufactura" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1010d743-7a78-474e-8c00-38fa5ba7fb79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "PH2.54-01-02PZD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aafe418-dfb1-4c0e-bee8-3b44463a5fa1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/15dbaecb-8804-4173-a3bb-569e2a5b8c9f")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -5751,7 +5804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5763,7 +5816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Walsin-Tech-Corp-WR06X0000FTL_C163836.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5775,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5823,7 +5876,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6b0718a3-ee9e-4472-835a-806ffb476fe9")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6219,7 +6274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6231,7 +6286,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Viking-Tech-CR-03JL7---10K_C217281.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6243,7 +6298,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6291,7 +6346,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/1e51d177-7df4-4afd-b54b-c191729a51d2")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6463,7 +6520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6475,7 +6532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Viking-Tech-AR03BTCX1200_C2828631.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6487,7 +6544,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6535,7 +6592,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9ac8b2fe-b962-4dd3-a906-96f034de8703")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6822,7 +6881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6834,7 +6893,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Viking-Tech-CR-03JL7---10K_C217281.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6846,7 +6905,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6894,7 +6953,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/a9be7fd0-9566-4fe5-a3fe-81e296505a8e")
+		(sheetname "Raíz")
 		(sheetfile "CANBUS_Flipper.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8493,7 +8554,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ea346c5b-8200-4523-8fef-8d66f1b2af73")
 	)
-	(gr_text "FLIPPER SHIELD\nCANBUS V1.1"
+	(gr_text "FLIPPER SHIELD\nCANBUS V1.2"
 		(at 139.446 100.584 0)
 		(layer "B.SilkS")
 		(uuid "c2112ecf-69a8-4d57-96c3-9b74a70025b9")
@@ -8506,7 +8567,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "FLIPPER SHIELD\nCANBUS V1.1"
+	(gr_text "FLIPPER SHIELD\nCANBUS V1.2"
 		(at 150.88 100.95 0)
 		(layer "F.SilkS")
 		(uuid "dafc0ad7-eb37-429c-b935-e75c4b6f76a4")
