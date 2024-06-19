@@ -553,6 +553,18 @@
           "label": "Descripción",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#MANUF",
+          "name": "#MANUF",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PROVEEDOR",
+          "name": "PROVEEDOR",
+          "show": true
         }
       ],
       "filter_string": "",
