@@ -8,11 +8,13 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 
 <p align="center">
 <a href="https://github.com/ElectronicCats/flipper-shields/wiki">
-	<img src="https://github.com/ElectronicCats/flipper-shields/assets/40640735/449ecb03-ef01-40e7-8c83-a89afc3baa88" width="43%">
+	<img src="https://github.com/ElectronicCats/flipper-shields/assets/107638696/9aaf2083-e052-454c-b04a-ac05942dee15" width="33%">
+<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
+	<img src="https://github.com/ElectronicCats/flipper-shields/assets/107638696/5277392e-86c9-4ac1-b7d5-08429478e422" width="33%">
 </p>
 
 <p align=center>
-<a href="https://electroniccats.com/?s=Flipper+Add-On&post_type=product&product_cat=">
+<a href="https://electroniccats.com/?s=Flipper+Shield&post_type=product&product_cat=">
   <img src="https://github.com/ElectronicCats/flipper-shields/assets/44976441/0c617467-052b-4ab1-a3b9-ba36e1f55a91" width="200" height="104" />
 </a>
 <a href="https://github.com/ElectronicCats/flipper-shields/wiki">
@@ -34,7 +36,7 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 - SubGiga LoRa
 - MagSpoof
 - ModBus or RS485
-- CanBus
+- CANbus
   
  ## Prototypes
 - UWB
