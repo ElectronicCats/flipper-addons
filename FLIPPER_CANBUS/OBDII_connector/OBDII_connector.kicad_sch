@@ -1142,7 +1142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Case:OBD-II-Sparkfun"
+		(property "Footprint" "Case:OBD-II-Sparkfun v2.0"
 			(at 55.88 39.37 0)
 			(effects
 				(font
