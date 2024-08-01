@@ -9054,6 +9054,18 @@
 			)
 		)
 	)
+	(gr_text "PCB tickness = 0.8 mm"
+		(at 197.25 105.86 0)
+		(layer "Cmts.User")
+		(uuid "8e7764a8-7879-4458-ab0c-29d97ab0a3e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "${REFERENCE}"
 		(at 226.515 47.64 0)
 		(layer "F.Fab")
