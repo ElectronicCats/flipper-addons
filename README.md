@@ -33,6 +33,7 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 
 ## Working
 - Marauder Magspoof
+- Marauder
 - SubGiga LoRa
 - MagSpoof
 - ModBus or RS485
