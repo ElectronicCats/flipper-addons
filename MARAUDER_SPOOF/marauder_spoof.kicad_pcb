@@ -8431,7 +8431,7 @@
 			(uuid "dc1bbc1b-58d4-454f-b543-b22334c8a4c8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "bd61e40b-5ba1-4b49-8928-31241750419b")
 			(effects
@@ -13687,7 +13687,20 @@
 		(layer "Edge.Cuts")
 		(uuid "cb02eabe-3af8-4bfb-b8e6-cbe98bdc6b54")
 	)
-	(gr_text "Flipper Add-On\nMarauder Spoof\n v1.0"
+	(gr_text "Flipper Add-On\nMarauder Spoof\n v1.1"
+		(at 254.92 73.75 -0)
+		(layer "B.SilkS")
+		(uuid "aeeb02c5-65b0-4d52-bf1d-adc4d45311be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Flipper Add-On\nMarauder Spoof\n v1.1"
 		(at 254.75 73.7 0)
 		(layer "F.SilkS")
 		(uuid "386bee61-287d-4ddd-9bcf-a5a03a331799")
@@ -13699,9 +13712,21 @@
 			)
 		)
 	)
+	(gr_text "PCB tickness = 0.8 mm"
+		(at 196.9 88.84 0)
+		(layer "Cmts.User")
+		(uuid "1a73692f-6616-4c23-8512-afa562b4925e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type aligned)
-		(layer "Margin")
+		(layer "Dwgs.User")
 		(uuid "06b1af7f-f86a-4003-b3e2-ec72f4ef0e45")
 		(pts
 			(xy 217.851 82.2032) (xy 200.071 82.2032)
@@ -13709,7 +13734,7 @@
 		(height -17.0468)
 		(gr_text "17.7800 mm"
 			(at 208.961 98.1 0)
-			(layer "Margin")
+			(layer "Dwgs.User")
 			(uuid "06b1af7f-f86a-4003-b3e2-ec72f4ef0e45")
 			(effects
 				(font
@@ -13734,7 +13759,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Margin")
+		(layer "Dwgs.User")
 		(uuid "75d4a793-f805-47a6-a7b0-9f05e8d6275b")
 		(pts
 			(xy 200.8584 86.4602) (xy 200.8584 92.3946)
@@ -13742,7 +13767,7 @@
 		(height 22.225)
 		(gr_text "5.9344 mm"
 			(at 176.8334 89.4274 90)
-			(layer "Margin")
+			(layer "Dwgs.User")
 			(uuid "75d4a793-f805-47a6-a7b0-9f05e8d6275b")
 			(effects
 				(font
@@ -13767,7 +13792,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Margin")
+		(layer "Dwgs.User")
 		(uuid "a28b6c15-5ba2-4777-adec-18775f552fea")
 		(pts
 			(xy 235.551 82.8232) (xy 217.771 82.8232)
@@ -13775,7 +13800,7 @@
 		(height -13.8168)
 		(gr_text "17.7800 mm"
 			(at 226.661 95.49 0)
-			(layer "Margin")
+			(layer "Dwgs.User")
 			(uuid "a28b6c15-5ba2-4777-adec-18775f552fea")
 			(effects
 				(font
@@ -13800,7 +13825,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Margin")
+		(layer "Dwgs.User")
 		(uuid "e429cbcd-1157-4f8e-829c-21e5f428f73d")
 		(pts
 			(xy 258.491 82.2032) (xy 235.631 82.2032)
@@ -13808,7 +13833,7 @@
 		(height -16.2068)
 		(gr_text "22.8600 mm"
 			(at 247.061 97.26 0)
-			(layer "Margin")
+			(layer "Dwgs.User")
 			(uuid "e429cbcd-1157-4f8e-829c-21e5f428f73d")
 			(effects
 				(font
