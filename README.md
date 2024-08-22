@@ -36,7 +36,7 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 - Marauder
 - SubGHz LoRa ([**Flipper LoRa Relay App**](https://github.com/ElectronicCats/flipper-SX1262-LoRa))
 - MagSpoof
-- ModBus or RS485 ([**Flipper RS485 ModBus App**](https://github.com/ElectronicCats/flipper-rs485modbus))
+- Modbus ([**Flipper RS485 ModBus App**](https://github.com/ElectronicCats/flipper-rs485modbus))
 - CANBus ([**Flipper CANBUS App**](https://github.com/ElectronicCats/flipper-MCP2515-CANBUS))
   
  ## Prototypes
