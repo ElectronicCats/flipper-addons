@@ -9029,7 +9029,7 @@
 		(layer "Edge.Cuts")
 		(uuid "9ea68f24-4d29-4961-b9e3-e4baf1a4f654")
 	)
-	(gr_text "Backpack Magspoof\nFlipper Zero\n v1.1"
+	(gr_text "Addon Magspoof\nFlipper Zero\n v1.1"
 		(at 254.2 72.75 0)
 		(layer "B.SilkS")
 		(uuid "0ec554ce-9c6b-48bd-a055-af2c80186bae")
@@ -9042,7 +9042,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Backpack Magspoof\nFlipper Zero\n v1.1"
+	(gr_text "Addon Magspoof\nFlipper Zero\n v1.1"
 		(at 252.25 67.55 0)
 		(layer "F.SilkS")
 		(uuid "386bee61-287d-4ddd-9bcf-a5a03a331799")
