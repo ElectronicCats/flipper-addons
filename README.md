@@ -1,23 +1,23 @@
-# Electronic Cats Flipper shields 😼 :dolphin: 
+# Electronic Cats Flipper Add-Ons 😼 :dolphin: 
 
 This repository contains a collection of our Add-Ons for Flipper, the open-source hardware platform for hacking and security research.
 
-<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
+<a href="https://github.com/ElectronicCats/flipper-addons/wiki">
   <img src="https://user-images.githubusercontent.com/107638696/263117497-6a808ad7-dbad-47d1-88da-059df876c544.png" />
 </a>
 
 <p align="center">
-<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
+<a href="https://github.com/ElectronicCats/flipper-addons/wiki">
 	<img src="https://github.com/ElectronicCats/flipper-shields/assets/107638696/9aaf2083-e052-454c-b04a-ac05942dee15" width="33%">
-<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
+<a href="https://github.com/ElectronicCats/flipper-addons/wiki">
 	<img src="https://github.com/ElectronicCats/flipper-shields/assets/107638696/5277392e-86c9-4ac1-b7d5-08429478e422" width="33%">
 </p>
 
 <p align=center>
-<a href="https://electroniccats.com/?s=Flipper+Shield&post_type=product&product_cat=">
+<a href="https://electroniccats.com/?s=flipper&post_type=product&product_cat=">
   <img src="https://github.com/ElectronicCats/flipper-shields/assets/44976441/0c617467-052b-4ab1-a3b9-ba36e1f55a91" width="200" height="104" />
 </a>
-<a href="https://github.com/ElectronicCats/flipper-shields/wiki">
+<a href="https://github.com/ElectronicCats/flipper-addons/wiki">
   <img src="https://github.com/ElectronicCats/flipper-shields/assets/44976441/6aa7f319-3256-442e-a00d-33c8126833ec" width="200" height="104" />
 </a>
 </p>
@@ -34,10 +34,10 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 ## Working
 - Marauder Magspoof
 - Marauder
-- SubGiga LoRa
+- SubGHz LoRa ([**Flipper LoRa Relay App**](https://github.com/ElectronicCats/flipper-SX1262-LoRa))
 - MagSpoof
-- ModBus or RS485
-- CANbus
+- ModBus or RS485 ([**Flipper RS485 ModBus App**](https://github.com/ElectronicCats/flipper-rs485modbus))
+- CANBus ([**Flipper CANBUS App**](https://github.com/ElectronicCats/flipper-MCP2515-CANBUS))
   
  ## Prototypes
 - UWB
@@ -48,7 +48,7 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 
 Please read the document [**Contribution Manual**](https://github.com/ElectronicCats/electroniccats-cla/blob/main/electroniccats-contribution-manual.md)  which will show you how to contribute your changes to the project.
 
-✨ Thanks to all our [contributors](https://github.com/ElectronicCats/flipper-shields/graphs/contributors)! ✨
+✨ Thanks to all our [contributors](https://github.com/ElectronicCats/flipper-addons/graphs/contributors)! ✨
 
 See [**_Electronic Cats CLA_**](https://github.com/ElectronicCats/electroniccats-cla/blob/main/electroniccats-cla.md) for more information.
 
