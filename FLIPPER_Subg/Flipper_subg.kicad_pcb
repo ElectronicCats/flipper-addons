@@ -14781,7 +14781,7 @@
 		(layer "Edge.Cuts")
 		(uuid "effa085d-736b-4a34-8ef4-e6e297b99cef")
 	)
-	(gr_text "Flipper Zero\nSub-GHz Shield"
+	(gr_text "Flipper Zero\nSub-GHz Addon"
 		(at 180.08 111.7 0)
 		(layer "B.SilkS")
 		(uuid "e75641ce-516b-4d66-9874-0c5ac3c19625")
@@ -14794,7 +14794,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Flipper Zero\nSub-GHz Shield"
+	(gr_text "Flipper Zero\nSub-GHz Addon"
 		(at 177.5 113 0)
 		(layer "F.SilkS")
 		(uuid "63345d27-87c1-465c-be73-25d95ca4a40b")
