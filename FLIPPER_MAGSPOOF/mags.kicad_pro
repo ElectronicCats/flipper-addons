@@ -482,7 +482,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers_F.magsv1.1",
-      "pos_files": "",
+      "pos_files": "CPL",
       "specctra_dsn": "",
       "step": "mags.step",
       "svg": "",
@@ -492,6 +492,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -615,7 +616,7 @@
   "sheets": [
     [
       "c000e998-700d-458d-af0b-55d19d346714",
-      "Raíz"
+      "Root"
     ]
   ],
   "text_variables": {}

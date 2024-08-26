@@ -4563,7 +4563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprintsg:JS102011SAQN"
+		(property "Footprint" "Library:MSK12C02"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -4590,7 +4590,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C221660"
+		(property "LCSC#" "C431540"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -4599,7 +4599,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "JS102011SAQN"
+		(property "manf#" "MSK12C02"
 			(at 63.5 63.5 0)
 			(effects
 				(font
