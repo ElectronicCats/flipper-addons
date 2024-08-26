@@ -481,7 +481,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers_F.magsv1.1",
+      "plot": "gerbers_F.magsv1.1_SW1",
       "pos_files": "CPL",
       "specctra_dsn": "",
       "step": "mags.step",
