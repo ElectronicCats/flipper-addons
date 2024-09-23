@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ILBB0805ER202V
+D Ferrite Beads Multi-Layer 2KOhm 25% 100MHz 0.08A 0.5Ohm DCR 0805 T/R
+K
+F https://www.vishay.com/docs/34025/ilbb0805.pdf
+$ENDCMP
+#
+#End Doc Library

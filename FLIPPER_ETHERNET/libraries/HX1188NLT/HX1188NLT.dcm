@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HX1188NLT
+D Telecom Transformer 1CT:1CT/1CT:1CT 1.5Ohm Prim. DCR 1.5Ohm Sec. DCR 16Term. Gull Wing SMD
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA2/221032.pdf
+$ENDCMP
+#
+#End Doc Library
