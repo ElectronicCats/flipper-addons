@@ -502,6 +502,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -631,7 +632,7 @@
   "sheets": [
     [
       "8c23e026-b908-4d4a-84cd-fb733847c38f",
-      "Raíz"
+      "Root"
     ]
   ],
   "text_variables": {}
