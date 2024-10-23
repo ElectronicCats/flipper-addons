@@ -40,6 +40,7 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 - CANBus ([**Flipper CANBUS App**](https://github.com/ElectronicCats/flipper-MCP2515-CANBUS))
   
  ## Prototypes
+- Ethernet
 - UWB
 
 
