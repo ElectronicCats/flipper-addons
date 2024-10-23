@@ -6860,6 +6860,33 @@
 				(hide yes)
 			)
 		)
+		(property "#LSCS" "C390792"
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" "LCSC"
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " S2125000101080"
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5112e305-a4c3-4142-a578-f35931bb6504")
 		)
@@ -8801,7 +8828,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LSCS" " C318889"
+		(property "#LSCS" "C2886897"
 			(at 44.45 64.77 0)
 			(effects
 				(font
