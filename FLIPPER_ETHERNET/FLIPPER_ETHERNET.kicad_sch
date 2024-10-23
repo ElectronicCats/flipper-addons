@@ -5538,7 +5538,7 @@
 		)
 		(uuid e2ef7fab-185f-49a9-9a34-1755cca85443)
 	)
-	(text "Ethernet Controller"
+	(text "FLIPP3R ADDON ETHERNET - Ethernet Controller"
 		(exclude_from_sim no)
 		(at 98.044 51.054 0)
 		(effects
@@ -5572,7 +5572,7 @@
 		)
 		(uuid "57852642-56a8-48e2-a20d-bfb959cbaa9f")
 	)
-	(text "RJ45"
+	(text "FLIPP3R ADDON ETHERNET - RJ45"
 		(exclude_from_sim no)
 		(at 226.314 75.184 0)
 		(effects
@@ -5634,7 +5634,7 @@
 		)
 		(uuid "ea9bd418-1653-443c-8366-19f4d1fe4401")
 	)
-	(text "Ethernet Controller"
+	(text "Reset Button"
 		(exclude_from_sim no)
 		(at 39.37 53.594 0)
 		(effects
@@ -6842,7 +6842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JGHC-S2125000101080_C390792.pdf"
 			(at 38.1 123.19 0)
 			(effects
 				(font
@@ -6961,7 +6961,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LSCS" "C85824"
+		(property "#LSCS" "C12074"
 			(at 234.95 102.87 0)
 			(effects
 				(font
@@ -9326,7 +9326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312131724_Vishay-Intertech-ILBB0805ER202V_C6639322.pdf"
 			(at 194.31 88.9 0)
 			(effects
 				(font
@@ -11849,7 +11849,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LSCS" " C7501586"
+		(property "#LSCS" "C7501586"
 			(at 76.2 80.01 0)
 			(effects
 				(font
