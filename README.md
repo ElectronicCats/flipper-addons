@@ -2,16 +2,10 @@
 
 This repository contains a collection of our Add-Ons for Flipper, the open-source hardware platform for hacking and security research.
 
-<a href="https://github.com/ElectronicCats/flipper-addons/wiki">
-  <img src="https://user-images.githubusercontent.com/107638696/263117497-6a808ad7-dbad-47d1-88da-059df876c544.png" />
-</a>
 
-<p align="center">
 <a href="https://github.com/ElectronicCats/flipper-addons/wiki">
-	<img src="https://github.com/ElectronicCats/flipper-shields/assets/107638696/9aaf2083-e052-454c-b04a-ac05942dee15" width="33%">
-<a href="https://github.com/ElectronicCats/flipper-addons/wiki">
-	<img src="https://github.com/ElectronicCats/flipper-shields/assets/107638696/5277392e-86c9-4ac1-b7d5-08429478e422" width="33%">
-</p>
+  <img src="https://github.com/user-attachments/assets/72c406ec-2172-4859-aa18-a53ff7d0802a" />
+</a>
 
 <p align=center>
 <a href="https://electroniccats.com/?s=flipper&post_type=product&product_cat=">
