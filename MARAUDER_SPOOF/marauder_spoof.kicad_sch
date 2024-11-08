@@ -6678,7 +6678,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C318889 "
 			(at 48.133 120.523 0)
 			(effects
 				(font
@@ -6782,6 +6782,15 @@
 			)
 		)
 		(property "provedor" "MOUSER"
+			(at 212.344 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C461051"
 			(at 212.344 129.54 0)
 			(effects
 				(font
@@ -7078,7 +7087,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "304878e9-06ea-4d63-9761-d1b9e48f06a4")
 		(property "Reference" "J3"
 			(at 44.2468 64.1096 0)
@@ -7455,7 +7464,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2886897"
 			(at 49.657 141.605 0)
 			(effects
 				(font
@@ -9776,6 +9785,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C461051"
+			(at 199.644 120.269 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "baa59f9d-eb92-4af0-aa9b-2a62dc6320a0")
 		)
@@ -10071,7 +10089,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d84a705d-c480-4c89-8bea-e9f4d85baa69")
 		(property "Reference" "J4"
 			(at 44.4246 74.2696 0)
