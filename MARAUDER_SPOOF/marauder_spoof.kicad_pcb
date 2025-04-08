@@ -13183,7 +13183,7 @@
 		(layer "Edge.Cuts")
 		(uuid "cb02eabe-3af8-4bfb-b8e6-cbe98bdc6b54")
 	)
-	(gr_text "Flipper Addon\nMarauder Spoof\n v1.1"
+	(gr_text "Flipper Addon\nMarauder Spoof\n v1.2"
 		(at 254.75 73.7 0)
 		(layer "F.SilkS")
 		(uuid "386bee61-287d-4ddd-9bcf-a5a03a331799")
@@ -13195,7 +13195,7 @@
 			)
 		)
 	)
-	(gr_text "Flipper Addon\nMarauder Spoof\n v1.1"
+	(gr_text "Flipper Addon\nMarauder Spoof\n v1.2"
 		(at 254.92 73.75 0)
 		(layer "B.SilkS")
 		(uuid "aeeb02c5-65b0-4d52-bf1d-adc4d45311be")
