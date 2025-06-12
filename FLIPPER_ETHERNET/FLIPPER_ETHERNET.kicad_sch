@@ -3096,7 +3096,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_Ethernet:ENC28J60x-ML"
+		(symbol "Interface_Ethernet:ENC28J60x-SO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3109,7 +3109,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ENC28J60x-ML"
+			(property "Value" "ENC28J60x-SO"
 				(at 5.08 24.13 0)
 				(effects
 					(font
@@ -3118,8 +3118,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
-				(at 30.48 -24.13 0)
+			(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
+				(at 29.21 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3137,7 +3137,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ENC28J60 Single Chip Ethernet Interface,QFN-28"
+			(property "Description" "ENC28J60 Single Chip Ethernet Interface, SOIC-28"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3155,7 +3155,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "QFN*28*1EP*6x6mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*28*7.5x17.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3164,7 +3164,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ENC28J60x-ML_0_1"
+			(symbol "ENC28J60x-SO_0_1"
 				(rectangle
 					(start -15.24 22.86)
 					(end 15.24 -22.86)
@@ -3177,7 +3177,7 @@
 					)
 				)
 			)
-			(symbol "ENC28J60x-ML_1_1"
+			(symbol "ENC28J60x-SO_1_1"
 				(pin input line
 					(at -17.78 20.32 0)
 					(length 2.54)
@@ -3188,7 +3188,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3206,7 +3206,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3224,7 +3224,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3242,7 +3242,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3260,7 +3260,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3278,7 +3278,7 @@
 							)
 						)
 					)
-					(number "28"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3296,7 +3296,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3314,7 +3314,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3332,7 +3332,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3340,7 +3340,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -17.78 -12.7 0)
 					(length 2.54)
 					(name "OSC2"
@@ -3350,7 +3350,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3368,7 +3368,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3386,7 +3386,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3404,7 +3404,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3422,7 +3422,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3440,7 +3440,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3458,7 +3458,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3476,7 +3476,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3494,7 +3494,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3512,7 +3512,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3530,7 +3530,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3548,7 +3548,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3556,7 +3556,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 17.78 5.08 180)
 					(length 2.54)
 					(name "VSSRX"
@@ -3566,7 +3566,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3584,7 +3584,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3602,7 +3602,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3620,7 +3620,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3628,7 +3628,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 17.78 -7.62 180)
 					(length 2.54)
 					(name "VSSTX"
@@ -3638,7 +3638,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3656,7 +3656,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3674,7 +3674,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8138,16 +8138,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_Ethernet:ENC28J60x-ML")
+		(lib_id "Interface_Ethernet:ENC28J60x-SO")
 		(at 130.81 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5ffc0064-b598-4926-8542-fed451f0ae95")
+		(fields_autoplaced yes)
+		(uuid "60da2ccc-8f50-42ff-921b-4e949416157e")
 		(property "Reference" "U1"
-			(at 135.128 76.454 0)
+			(at 135.4933 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,8 +8156,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ENC28J60x-ML"
-			(at 135.128 78.994 0)
+		(property "Value" "ENC28J60x-SO"
+			(at 135.4933 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,8 +8165,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
-			(at 161.29 127 0)
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
+			(at 160.02 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +8175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/39662e.pdf"
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf"
 			(at 130.81 102.87 0)
 			(effects
 				(font
@@ -8183,7 +8184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ENC28J60 Single Chip Ethernet Interface,QFN-28"
+		(property "Description" "ENC28J60 Single Chip Ethernet Interface, SOIC-28"
 			(at 130.81 102.87 0)
 			(effects
 				(font
@@ -8191,180 +8192,90 @@
 				)
 				(hide yes)
 			)
-		)
-		(property "#LSCS" "C57281"
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proveedor" "Mouser"
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "ENC28J60-I/ML"
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "4e27a8a9-9820-47fa-9b19-cc81c7f89b0f")
-		)
-		(pin "12"
-			(uuid "2424c76f-028b-4e9b-b8cd-5111dff5c0df")
-		)
-		(pin "3"
-			(uuid "a47f55a2-1796-4a00-9e6c-4987eee7adde")
-		)
-		(pin "10"
-			(uuid "eb7dbb52-e4b2-487b-aa93-eb0f4882439c")
-		)
-		(pin "24"
-			(uuid "89f63e86-22ff-41f9-8a0a-3bdda71779eb")
 		)
 		(pin "11"
-			(uuid "fb8ed6ff-6f1a-41d2-8e23-daf5905219b8")
-		)
-		(pin "28"
-			(uuid "612d8978-27a0-482c-b329-30ab2e798d77")
-		)
-		(pin "22"
-			(uuid "5bf42956-d16f-48b4-9f34-3902a7333439")
-		)
-		(pin "7"
-			(uuid "efbd46e1-379c-4c98-ba18-388a6887eb87")
-		)
-		(pin "17"
-			(uuid "36b3fed1-0c31-4815-aeb4-13e6c5b44483")
-		)
-		(pin "23"
-			(uuid "23da3219-1df4-4872-ad1c-bb3434c44997")
-		)
-		(pin "5"
-			(uuid "cffbdd03-f1ee-4af7-8eb8-a898dc50e597")
-		)
-		(pin "16"
-			(uuid "77963234-12f2-42f2-ab21-8bbd2a611552")
-		)
-		(pin "21"
-			(uuid "8c2b16a9-92d5-434f-a3ea-5952d41b3bb7")
-		)
-		(pin "26"
-			(uuid "4cb2d6b2-649b-4b95-885d-3d3f45058988")
-		)
-		(pin "9"
-			(uuid "95de4584-c82c-4472-b932-b2133c957c1a")
-		)
-		(pin "15"
-			(uuid "300c4e81-f39d-43b2-afd7-bc3bfdf3d85f")
-		)
-		(pin "4"
-			(uuid "9f7a0a4a-980d-4266-ac8c-e2245328ee45")
+			(uuid "a0bdbf92-bc28-4982-aa40-4e10e3461ba0")
 		)
 		(pin "19"
-			(uuid "42b450d9-727d-4b6d-89b8-5c0a87753e7b")
+			(uuid "6ef75ee5-879f-41ac-97ae-6655993d4454")
 		)
-		(pin "2"
-			(uuid "c3fec8e0-6360-49d2-87a9-8b5cb3e6b7bc")
+		(pin "24"
+			(uuid "663179a1-918a-4a92-9d81-acf71a96965f")
 		)
-		(pin "1"
-			(uuid "b2a23278-9b72-42ac-8df9-779441315ca7")
-		)
-		(pin "25"
-			(uuid "f17a0ec1-839e-435f-ab12-1c7dbca88d89")
-		)
-		(pin "13"
-			(uuid "92bc682a-721f-4241-995a-f6dff7b521df")
-		)
-		(pin "27"
-			(uuid "f8d88cbe-b517-4091-bc14-8aab2d72ef0a")
-		)
-		(pin "20"
-			(uuid "a7596290-23bc-4ea4-b8ab-8868429ddfb2")
-		)
-		(pin "8"
-			(uuid "901b71b7-e431-413a-95bb-5026db25c160")
+		(pin "26"
+			(uuid "04f469a7-fa15-4bd0-8add-c984af3cce08")
 		)
 		(pin "18"
-			(uuid "57996dc9-0442-413e-9ed2-8b520ac5f54b")
+			(uuid "377be050-399b-4a41-8a47-23fe9e743e6f")
+		)
+		(pin "2"
+			(uuid "a1695dcf-282f-498f-acbc-41a1a2f370ba")
+		)
+		(pin "22"
+			(uuid "5d8d3343-4171-4f74-8e11-0a053fd0337f")
+		)
+		(pin "25"
+			(uuid "b0935ea7-e304-4b7d-be6c-153e5d34ccbc")
+		)
+		(pin "15"
+			(uuid "0afee157-e278-4ee4-9e59-7ce60ef3e9bf")
+		)
+		(pin "17"
+			(uuid "7cbe0a4f-298f-4b93-8bba-633d25f39fce")
+		)
+		(pin "23"
+			(uuid "7bded140-ef3f-47f2-8d39-9997d307ed46")
+		)
+		(pin "14"
+			(uuid "e5aca287-52e3-4ef0-a8d9-a891e8097843")
+		)
+		(pin "1"
+			(uuid "2ff08368-5300-4bdd-8123-abece367a02d")
+		)
+		(pin "13"
+			(uuid "babb829e-b139-48bf-bd14-6dcd9bccbed0")
+		)
+		(pin "21"
+			(uuid "7b566b5f-911c-4020-897e-98093ba42ece")
+		)
+		(pin "27"
+			(uuid "caa5b98f-2230-4a33-9369-8fa550f5948b")
+		)
+		(pin "20"
+			(uuid "c25493f1-d11e-4c88-9da1-2cb9e7b66102")
+		)
+		(pin "12"
+			(uuid "1daf01d3-49db-4749-9507-7a4ea646a071")
+		)
+		(pin "28"
+			(uuid "738ab04a-93ce-4bd1-a089-e8f2b10ede12")
+		)
+		(pin "16"
+			(uuid "b7fe9115-f25b-49c7-afd9-ba039f6e8653")
+		)
+		(pin "3"
+			(uuid "9f9cf3ca-4b1e-4264-9b5f-9594c8aeb85b")
+		)
+		(pin "7"
+			(uuid "89de0bf0-4b8f-46ce-a00e-c6372ed80b8c")
+		)
+		(pin "8"
+			(uuid "4890e9af-d786-4231-aed5-486d38579a8d")
+		)
+		(pin "10"
+			(uuid "f940a8e2-ae0d-489c-94a7-92c89b9f9119")
+		)
+		(pin "4"
+			(uuid "6d0e45eb-89d6-41f4-b55b-0bd8ae9a1139")
+		)
+		(pin "9"
+			(uuid "3bfa1600-c540-4545-94ed-4820d647c5b2")
 		)
 		(pin "6"
-			(uuid "85adeea9-8326-4e98-a2d3-c536ad13589d")
+			(uuid "786a1242-3176-469b-8bb9-3d70855a1dbc")
+		)
+		(pin "5"
+			(uuid "62afe359-ee63-4a58-a3fe-66ee7eac6d22")
 		)
 		(instances
 			(project ""
