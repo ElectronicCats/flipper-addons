@@ -5993,7 +5993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 184.15 109.22 0)
 			(effects
 				(font
@@ -6150,7 +6150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 36.83 64.77 0)
 			(effects
 				(font
@@ -6375,7 +6375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 194.31 116.84 0)
 			(effects
 				(font
@@ -6535,7 +6535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 119.38 64.77 0)
 			(effects
 				(font
@@ -6629,7 +6629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 38.1 123.19 0)
 			(effects
 				(font
@@ -6793,7 +6793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 234.95 102.87 0)
 			(effects
 				(font
@@ -7049,7 +7049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 31.75 130.81 0)
 			(effects
 				(font
@@ -7274,7 +7274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 76.2 118.11 0)
 			(effects
 				(font
@@ -7524,7 +7524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 184.15 90.17 0)
 			(effects
 				(font
@@ -7813,7 +7813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 152.4 118.11 0)
 			(effects
 				(font
@@ -8104,7 +8104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 184.15 97.79 0)
 			(effects
 				(font
@@ -8185,6 +8185,24 @@
 			)
 		)
 		(property "Description" "ENC28J60 Single Chip Ethernet Interface, SOIC-28"
+			(at 130.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" "JLCPCB"
+			(at 130.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LSCS" "C47351"
 			(at 130.81 102.87 0)
 			(effects
 				(font
@@ -8413,7 +8431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 99.06 111.76 0)
 			(effects
 				(font
@@ -8769,7 +8787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -8929,7 +8947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 194.31 88.9 0)
 			(effects
 				(font
@@ -9089,7 +9107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 194.31 97.79 0)
 			(effects
 				(font
@@ -9376,7 +9394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 262.89 107.95 0)
 			(effects
 				(font
@@ -9599,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 262.89 97.79 0)
 			(effects
 				(font
@@ -9889,7 +9907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -10177,7 +10195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPBC"
 			(at 43.18 130.81 0)
 			(effects
 				(font
@@ -10468,7 +10486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 149.86 127 0)
 			(effects
 				(font
@@ -10628,7 +10646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 161.29 88.9 0)
 			(effects
 				(font
@@ -10785,7 +10803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 31.75 118.11 0)
 			(effects
 				(font
@@ -11077,7 +11095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 161.29 110.49 0)
 			(effects
 				(font
@@ -11433,7 +11451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "JLCPCB"
 			(at 76.2 80.01 0)
 			(effects
 				(font
