@@ -2,9 +2,9 @@
 
 This repository contains a collection of our Add-Ons for Flipper, the open-source hardware platform for hacking and security research.
 
-
 <a href="https://github.com/ElectronicCats/flipper-addons/wiki">
   <img src="https://github.com/user-attachments/assets/72c406ec-2172-4859-aa18-a53ff7d0802a" />
+  <img width=30% src="https://github.com/user-attachments/assets/439b425d-0251-4dbe-899c-a1e1964e2afb" />
 </a>
 
 <p align=center>
@@ -32,9 +32,9 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
 - MagSpoof
 - Modbus ([**Flipper RS485 ModBus App**](https://github.com/ElectronicCats/flipper-rs485modbus))
 - CANBus ([**Flipper CANBUS App**](https://github.com/ElectronicCats/flipper-MCP2515-CANBUS))
+- Ethernet ([**Flipper ENC28J60 Ethernet App**](https://github.com/ElectronicCats/flipper-ENC28J60-ethernet))
   
  ## Prototypes
-- Ethernet
 - UWB
 
 
