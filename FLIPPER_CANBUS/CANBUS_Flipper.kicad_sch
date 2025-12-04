@@ -4793,7 +4793,7 @@
 		)
 		(uuid "4dda1702-c5b2-4aaa-880e-e44df8107f0a")
 	)
-	(label "CANH"
+	(label "CAN+"
 		(at 21.59 102.87 180)
 		(effects
 			(font
@@ -4913,7 +4913,7 @@
 		)
 		(uuid "acc0402f-592d-4522-bb18-7900fca4bebe")
 	)
-	(label "CANH"
+	(label "CAN+"
 		(at 185.42 30.48 0)
 		(effects
 			(font
@@ -4933,7 +4933,7 @@
 		)
 		(uuid "ae53ab58-a250-472f-ab70-efbf739840a1")
 	)
-	(label "CANL"
+	(label "CAN-"
 		(at 21.59 125.73 180)
 		(effects
 			(font
@@ -4973,7 +4973,7 @@
 		)
 		(uuid "cb69202a-f632-4bea-b507-c53867dd9adc")
 	)
-	(label "CANL"
+	(label "CAN-"
 		(at 185.42 33.02 0)
 		(effects
 			(font
