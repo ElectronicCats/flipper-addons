@@ -6089,7 +6089,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-C5-WROOM-1U-N8R8"
+		(property "Value" "ESP32-C5-WROOM-1-N4"
 			(at 208.28 30.48 0)
 			(effects
 				(font
@@ -6272,6 +6272,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "manf#" "356-ESP32C5WROM1N4"
+			(at 208.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
