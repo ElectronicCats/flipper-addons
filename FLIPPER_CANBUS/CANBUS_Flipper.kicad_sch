@@ -3388,20 +3388,12 @@
 		(uuid "131f848d-5dfc-4818-92af-452ffbb7a871")
 	)
 	(no_connect
-		(at 181.61 60.96)
-		(uuid "2013de16-0de1-461b-92e1-08df906cc404")
-	)
-	(no_connect
 		(at 46.99 33.02)
 		(uuid "4307ccf6-2cc6-4a1e-9ced-90818203a53b")
 	)
 	(no_connect
 		(at 46.99 43.18)
 		(uuid "7e11bf6f-1dbd-47e3-bba5-48f61b5cf31d")
-	)
-	(no_connect
-		(at 46.99 38.1)
-		(uuid "dc7c4e33-10db-4cf8-ac55-4ac69f0f040b")
 	)
 	(wire
 		(pts
@@ -3702,6 +3694,16 @@
 			(type default)
 		)
 		(uuid "3c59babf-c0e5-47b8-96fe-57986bb4d59f")
+	)
+	(wire
+		(pts
+			(xy 184.15 60.96) (xy 181.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c64b6fd-429e-4bd0-bca8-2e93b8690476")
 	)
 	(wire
 		(pts
@@ -4012,6 +4014,16 @@
 			(type default)
 		)
 		(uuid "6f74a0ce-5579-47f9-97a3-59846d0bdc7b")
+	)
+	(wire
+		(pts
+			(xy 44.45 38.1) (xy 46.99 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73876de0-a28e-463e-9f43-7e7d74e9ea9b")
 	)
 	(wire
 		(pts
@@ -4823,6 +4835,16 @@
 		)
 		(uuid "729504ea-dc02-4b32-9e5a-6cacfd57e500")
 	)
+	(label "CLK0"
+		(at 44.45 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73952627-955c-4b63-8e8c-fff0af519376")
+	)
 	(label "SDO"
 		(at 43.18 66.04 180)
 		(effects
@@ -4972,6 +4994,16 @@
 			(justify right bottom)
 		)
 		(uuid "cb69202a-f632-4bea-b507-c53867dd9adc")
+	)
+	(label "CLK0"
+		(at 184.15 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8bd0d94-2a79-4419-a926-69733a7f6ed0")
 	)
 	(label "CAN-"
 		(at 185.42 33.02 0)
@@ -6783,7 +6815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.2"
 			(at 20.066 120.396 0)
 			(effects
 				(font
@@ -6819,7 +6851,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C166918"
+		(property "LCSC#" "C2086358"
 			(at 24.13 119.38 0)
 			(effects
 				(font
@@ -8068,7 +8100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.2"
 			(at 20.066 110.236 0)
 			(effects
 				(font
@@ -8104,7 +8136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C166918"
+		(property "LCSC#" "C2086358"
 			(at 24.13 109.22 0)
 			(effects
 				(font
