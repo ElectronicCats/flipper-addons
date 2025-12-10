@@ -4103,12 +4103,6 @@
 		(uuid "25bceb10-4d9a-48e9-9d2a-5fdff3b817aa")
 	)
 	(junction
-		(at 49.53 142.621)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fe19ca1-39a4-4666-a0dc-52050deb9ed8")
-	)
-	(junction
 		(at 201.295 114.681)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4121,10 +4115,28 @@
 		(uuid "537f9cfc-4a51-4ea1-bf25-7bb56fb8da82")
 	)
 	(junction
+		(at 49.53 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56aa068e-d549-4fbb-a24b-baf3d9ed8d16")
+	)
+	(junction
+		(at 34.29 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69bd02e3-408a-4bfe-aa6e-03fd9d9a620e")
+	)
+	(junction
 		(at 191.008 121.031)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80da6ff9-4a16-495c-873d-730b363f0696")
+	)
+	(junction
+		(at 49.53 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97e875d1-b0c4-43e8-b6c2-7642bee40101")
 	)
 	(junction
 		(at 187.579 121.031)
@@ -4133,16 +4145,16 @@
 		(uuid "ab48ee8c-0326-41f6-9999-73f296603392")
 	)
 	(junction
+		(at 29.21 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0225232-6c3c-40d4-93da-50f4ca108e5e")
+	)
+	(junction
 		(at 46.355 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2d1b5d2-32ba-4f64-adf1-09cf9120496e")
-	)
-	(junction
-		(at 49.53 123.317)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f348aade-4db4-47d9-aab3-2aafa7097041")
 	)
 	(junction
 		(at 25.4 88.9)
@@ -4163,10 +4175,6 @@
 		(uuid "493f5d6e-83ba-4313-a276-4324739a63db")
 	)
 	(no_connect
-		(at 228.6 48.26)
-		(uuid "4cdad962-bd53-46a1-86e8-e13094ce6768")
-	)
-	(no_connect
 		(at 187.96 58.42)
 		(uuid "50b60492-8281-4306-8934-fa6d704635cb")
 	)
@@ -4175,16 +4183,20 @@
 		(uuid "57b4eca1-7819-4be5-89cd-743dbc27b94d")
 	)
 	(no_connect
-		(at 187.96 68.58)
-		(uuid "8816b1e8-821d-4c76-8dfe-7425573ce3cf")
-	)
-	(no_connect
 		(at 187.96 55.88)
 		(uuid "912fe4cf-714c-41e1-bbe6-135b196b399e")
 	)
 	(no_connect
 		(at 187.96 50.8)
 		(uuid "a632c653-b4af-454e-9d0f-f9df1311065e")
+	)
+	(no_connect
+		(at 228.6 66.04)
+		(uuid "d9154116-73ee-4bab-a4fe-54de51e784ff")
+	)
+	(no_connect
+		(at 228.6 63.5)
+		(uuid "dd726164-63bb-4924-bd60-c9e2e7b6e5be")
 	)
 	(no_connect
 		(at 187.96 66.04)
@@ -4276,7 +4288,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 142.621) (xy 34.29 149.86)
+			(xy 34.29 142.24) (xy 34.29 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4356,6 +4368,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2065e8a5-70c4-482e-aa6c-2113fe14148f")
+	)
+	(wire
+		(pts
+			(xy 49.53 127) (xy 49.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2094aeda-85b6-42e3-ba2d-d9234fdabb74")
+	)
+	(wire
+		(pts
 			(xy 45.72 48.26) (xy 46.99 48.26)
 		)
 		(stroke
@@ -4426,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 142.621) (xy 52.07 142.621)
+			(xy 49.53 142.24) (xy 52.07 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4586,6 +4618,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 127) (xy 29.21 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511fbf27-ae68-484d-8124-61261203e979")
+	)
+	(wire
+		(pts
 			(xy 27.94 71.12) (xy 25.4 71.12)
 		)
 		(stroke
@@ -4616,26 +4658,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 50.8) (xy 173.99 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56dec505-7cf7-4d4a-bdd1-bb34457a3f83")
-	)
-	(wire
-		(pts
-			(xy 261.62 27.94) (xy 261.62 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57463b46-7d10-4db3-88ba-3f3a6a4fa061")
-	)
-	(wire
-		(pts
 			(xy 46.355 87.63) (xy 46.355 89.789)
 		)
 		(stroke
@@ -4643,6 +4665,16 @@
 			(type default)
 		)
 		(uuid "57fcb99e-eb83-4b87-9b26-b6c8d983d7fb")
+	)
+	(wire
+		(pts
+			(xy 34.29 146.05) (xy 39.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5812b16a-1130-412a-aeac-a54ebe345a68")
 	)
 	(wire
 		(pts
@@ -4726,16 +4758,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 36.83) (xy 261.62 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "644f8e0e-c669-44c3-9c8a-d4d5de2e4bf9")
-	)
-	(wire
-		(pts
 			(xy 53.34 74.93) (xy 54.61 74.93)
 		)
 		(stroke
@@ -4763,6 +4785,16 @@
 			(type default)
 		)
 		(uuid "6d4c11e7-9d25-4daa-ad1e-4b0417a95617")
+	)
+	(wire
+		(pts
+			(xy 233.68 48.26) (xy 228.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de9575a-d5ca-4269-8531-fd11d42a8468")
 	)
 	(wire
 		(pts
@@ -4806,16 +4838,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 63.5) (xy 228.6 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81d85d89-5ce9-4c83-a00d-36790da4805d")
-	)
-	(wire
-		(pts
 			(xy 234.95 71.12) (xy 228.6 71.12)
 		)
 		(stroke
@@ -4856,16 +4878,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 62.23) (xy 173.99 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897bad1a-5059-4694-aa1e-3bc4bd854d03")
-	)
-	(wire
-		(pts
 			(xy 46.355 87.63) (xy 54.61 87.63)
 		)
 		(stroke
@@ -4896,7 +4908,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.117 142.621) (xy 49.53 142.621)
+			(xy 46.99 142.24) (xy 49.53 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4933,6 +4945,16 @@
 			(type default)
 		)
 		(uuid "9a74011f-6303-4613-b42b-6c328bd2abeb")
+	)
+	(wire
+		(pts
+			(xy 29.21 127) (xy 29.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d594bb7-bfa9-44a4-88ca-98550d16faa7")
 	)
 	(wire
 		(pts
@@ -4986,7 +5008,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 142.621) (xy 36.957 142.621)
+			(xy 34.29 142.24) (xy 36.83 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5036,7 +5058,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 63.5) (xy 187.96 63.5)
+			(xy 176.53 63.5) (xy 187.96 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5054,6 +5076,16 @@
 		)
 		(uuid "b1f17dc8-c30f-4112-bcb5-0d80a35ad267")
 	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e772e7-a03d-4a41-b148-0c347384cd74")
+	)
 	(polyline
 		(pts
 			(xy 147.5994 12.1666) (xy 147.5994 98.171)
@@ -5066,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 123.317) (xy 53.086 123.317)
+			(xy 49.53 123.19) (xy 53.34 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5096,7 +5128,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 122.301) (xy 49.53 123.317)
+			(xy 49.53 122.301) (xy 49.53 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5136,16 +5168,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 66.04) (xy 228.6 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baec4b5d-c85c-4eb0-88b0-ecdaab50d6c8")
-	)
-	(wire
-		(pts
 			(xy 71.755 54.991) (xy 71.755 57.023)
 		)
 		(stroke
@@ -5176,7 +5198,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 139.954) (xy 49.53 142.621)
+			(xy 49.53 139.954) (xy 49.53 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5226,13 +5248,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 71.12) (xy 187.96 71.12)
+			(xy 49.53 146.05) (xy 49.53 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c60ee9b3-3122-4fec-9d8a-12f637a82c4d")
+		(uuid "ca19dbee-5b08-4d8b-a6c8-51c724299124")
 	)
 	(wire
 		(pts
@@ -5306,7 +5328,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.212 123.317) (xy 49.53 123.317)
+			(xy 44.45 146.05) (xy 49.53 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76be053-7143-4cf7-98bc-3407cce61dbd")
+	)
+	(wire
+		(pts
+			(xy 44.45 123.19) (xy 49.53 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5376,6 +5408,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 127) (xy 49.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb808e6b-d955-45f9-91e1-dd3930877bc3")
+	)
+	(wire
+		(pts
 			(xy 213.995 114.681) (xy 201.295 114.681)
 		)
 		(stroke
@@ -5386,7 +5428,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 123.317) (xy 33.02 124.206)
+			(xy 29.21 123.19) (xy 29.21 127)
 		)
 		(stroke
 			(width 0)
@@ -5396,7 +5438,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.052 123.317) (xy 33.02 123.317)
+			(xy 34.29 123.19) (xy 29.21 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5413,6 +5455,16 @@
 			(type default)
 		)
 		(uuid "f9f600da-31c6-47d7-bebf-8bbc820a4159")
+	)
+	(wire
+		(pts
+			(xy 34.29 146.05) (xy 34.29 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb56748c-a242-4991-ad83-acaef56a0d66")
 	)
 	(wire
 		(pts
@@ -5475,7 +5527,7 @@
 		(uuid "074198c6-3be5-46ff-9b5a-7a6d76b7cb24")
 	)
 	(label "BOOT"
-		(at 52.07 142.621 0)
+		(at 52.07 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5505,7 +5557,7 @@
 		(uuid "0fa51e57-3b47-4b76-b6bb-1d787451b28a")
 	)
 	(label "LPUART_RX"
-		(at 176.53 60.96 0)
+		(at 176.53 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5555,7 +5607,7 @@
 		(uuid "29eeb543-2718-48b5-a494-344699a15601")
 	)
 	(label "RST"
-		(at 53.086 123.317 0)
+		(at 53.34 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5605,7 +5657,7 @@
 		(uuid "4a89c8ff-4696-44f9-8119-d35813e656b2")
 	)
 	(label "SWCLK"
-		(at 234.95 66.04 180)
+		(at 233.68 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5685,7 +5737,7 @@
 		(uuid "5af8c6a3-b845-41e3-a6e7-d9b06e3423fc")
 	)
 	(label "LPUART_TX"
-		(at 176.53 63.5 0)
+		(at 176.53 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5725,7 +5777,7 @@
 		(uuid "7be46a0c-5d22-4655-9678-fbd6c4c86c61")
 	)
 	(label "SER_PULLUP"
-		(at 173.99 71.12 0)
+		(at 176.53 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5895,12 +5947,12 @@
 		(uuid "e58b02d7-11b0-494f-a51e-a0736311a6df")
 	)
 	(label "SWDIO"
-		(at 234.95 63.5 180)
+		(at 176.53 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e9186a84-8a6a-4f81-aded-619ec451a34d")
 	)
@@ -6000,7 +6052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0603COG100J500CT_C376764.pdf"
+		(property "Datasheet" ""
 			(at 71.755 52.451 0)
 			(effects
 				(font
@@ -6620,7 +6672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.119 114.681 0)
 			(effects
 				(font
@@ -6839,7 +6891,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 124.206 0)
+		(at 29.21 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6847,7 +6899,7 @@
 		(dnp no)
 		(uuid "23de211c-468f-4402-a193-20f7514cc5a0")
 		(property "Reference" "#PWR03"
-			(at 33.02 130.556 0)
+			(at 29.21 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +6908,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.147 128.6002 0)
+			(at 29.337 132.6642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +6916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 124.206 0)
+			(at 29.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +6925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 124.206 0)
+			(at 29.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 124.206 0)
+			(at 29.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +7001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811151133_Walsin-Tech-Corp-WR06X104JTL_C163843.pdf"
+		(property "Datasheet" ""
 			(at 49.53 119.761 0)
 			(effects
 				(font
@@ -8002,82 +8054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72d07a25-4194-4b75-b8d7-7c2db01649c7")
-		(property "Reference" "#PWR023"
-			(at 261.62 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.747 43.7642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "240fb657-484c-468e-97e5-3b4acb15d4a6")
-		)
-		(instances
-			(project "Marauder"
-				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-			(project "minino"
-				(path "/aed8b10b-62ba-47cf-bd6c-c207f8432caa"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "marauder_spoof"
-				(path "/c000e998-700d-458d-af0b-55d19d346714"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HunterCat-NFC-rescue:USB_C_Plug_USB2.0-Connector")
 		(at 109.982 50.927 0)
 		(unit 1)
@@ -8321,113 +8297,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 261.62 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7fd85e65-19da-4cf2-85c1-836018ddf447")
-		(property "Reference" "C4"
-			(at 263.9568 33.1216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 263.9568 35.433 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 261.62 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0603COG100J500CT_C376764.pdf"
-			(at 261.62 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" ""
-			(at 261.62 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "provedor" "LCSC"
-			(at 261.62 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C85713"
-			(at 261.62 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12683f36-f0b8-48b8-9ed6-f9283632e4f0")
-		)
-		(pin "2"
-			(uuid "1a0fa50d-2030-4b72-80fb-7497466731eb")
-		)
-		(instances
-			(project "Marauder"
-				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "minino"
-				(path "/aed8b10b-62ba-47cf-bd6c-c207f8432caa"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "marauder_spoof"
-				(path "/c000e998-700d-458d-af0b-55d19d346714"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 49.53 137.414 180)
 		(unit 1)
@@ -8463,7 +8332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811151133_Walsin-Tech-Corp-WR06X104JTL_C163843.pdf"
+		(property "Datasheet" ""
 			(at 49.53 137.414 0)
 			(effects
 				(font
@@ -8613,82 +8482,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 173.99 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ed1af4e-f93e-4707-a1de-9f10cd441574")
-		(property "Reference" "#PWR016"
-			(at 173.99 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 174.371 46.4058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c076106-ec35-4619-a0d2-6d1252fd57da")
-		)
-		(instances
-			(project "Marauder"
-				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-			(project "minino"
-				(path "/aed8b10b-62ba-47cf-bd6c-c207f8432caa"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "marauder_spoof"
-				(path "/c000e998-700d-458d-af0b-55d19d346714"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.755 57.023 0)
 		(unit 1)
@@ -8782,7 +8575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 252.5268 35.433 0)
 			(effects
 				(font
@@ -8800,7 +8593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0603COG100J500CT_C376764.pdf"
+		(property "Datasheet" ""
 			(at 250.19 34.29 0)
 			(effects
 				(font
@@ -8835,7 +8628,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C15849"
+		(property "LCSC#" "C597251"
 			(at 250.19 34.29 0)
 			(effects
 				(font
@@ -8873,7 +8666,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 40.132 123.317 0)
+		(at 39.37 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8881,7 +8674,7 @@
 		(dnp no)
 		(uuid "a104219d-16bd-4f3e-a770-d6720985bc61")
 		(property "Reference" "SW1"
-			(at 40.132 116.078 0)
+			(at 39.37 115.951 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +8682,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 40.132 118.3894 0)
+			(at 39.37 118.2624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +8690,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 40.132 118.237 0)
+			(at 39.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +8699,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205161616_E-Switch-TL3342F450QG_C2886897.pdf"
-			(at 40.132 118.237 0)
+			(at 39.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +8708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.132 123.317 0)
+			(at 39.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +8716,7 @@
 			)
 		)
 		(property "manf#" "TL3342F450QG"
-			(at 40.132 123.317 0)
+			(at 39.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,8 +8724,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
-			(at 40.132 123.317 0)
+		(property "LCSC#" "C2886897"
+			(at 39.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,7 +8734,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 40.132 123.317 0)
+			(at 39.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,6 +8764,101 @@
 			(project "marauder_spoof"
 				(path "/c000e998-700d-458d-af0b-55d19d346714"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 41.91 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a535b39d-3cb4-4f0f-8c90-be38dceb9761")
+		(property "Reference" "C5"
+			(at 40.64 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 47.244 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 41.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
+			(at 41.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "provedor" "LCSC"
+			(at 41.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C597251"
+			(at 41.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d77faad5-d302-46e2-adb6-aa5a16d967ff")
+		)
+		(pin "2"
+			(uuid "1ed6aaa9-070d-41bd-ae36-81bbbdebb5d5")
+		)
+		(instances
+			(project "Marauder"
+				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9235,107 +9123,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 173.99 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1037a4a-2f12-4980-bd21-278c46b82263")
-		(property "Reference" "R5"
-			(at 170.18 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 169.418 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 173.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C217281"
-			(at 173.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 173.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "provedor" "LCSC"
-			(at 173.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37f62876-dd9c-474f-b20c-b9a060a408b9")
-		)
-		(pin "2"
-			(uuid "ffebacb7-eded-4635-8ef3-e162140c3caa")
-		)
-		(instances
-			(project "Marauder"
-				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "marauder_spoof"
-				(path "/c000e998-700d-458d-af0b-55d19d346714"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 201.295 140.208 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9498,6 +9285,101 @@
 			(project "marauder_spoof"
 				(path "/c000e998-700d-458d-af0b-55d19d346714"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b63bad90-a251-48c9-ac81-41d317a50dbe")
+		(property "Reference" "C4"
+			(at 38.1 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 44.704 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "provedor" "LCSC"
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C597251"
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fb00047-fdb9-4713-ac9c-fe0a58594272")
+		)
+		(pin "2"
+			(uuid "3cd3ab72-5f3e-4a53-8ae0-56530fbd5e2b")
+		)
+		(instances
+			(project "Marauder"
+				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9679,7 +9561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0603COG100J500CT_C376764.pdf"
+		(property "Datasheet" ""
 			(at 269.24 34.29 0)
 			(effects
 				(font
@@ -9733,82 +9615,6 @@
 			(project "Marauder"
 				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 261.62 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ccf1d8e4-9a60-4511-9c95-b0bef0ace0bf")
-		(property "Reference" "#PWR022"
-			(at 261.62 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 262.001 23.5458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "763a4e7a-67e9-4ad7-b044-4f0068b1fe74")
-		)
-		(instances
-			(project "Marauder"
-				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-			(project "minino"
-				(path "/aed8b10b-62ba-47cf-bd6c-c207f8432caa"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "marauder_spoof"
-				(path "/c000e998-700d-458d-af0b-55d19d346714"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9999,7 +9805,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 42.037 142.621 0)
+		(at 41.91 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10007,7 +9813,7 @@
 		(dnp no)
 		(uuid "e1fef1d5-7bcb-4801-a4fc-5ec4fb2cfd8f")
 		(property "Reference" "SW2"
-			(at 42.672 147.193 0)
+			(at 39.497 137.033 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +9821,7 @@
 			)
 		)
 		(property "Value" "GPIO"
-			(at 42.545 145.161 0)
+			(at 38.735 139.573 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,7 +9829,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 42.037 137.541 0)
+			(at 41.91 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +9838,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205161616_E-Switch-TL3342F450QG_C2886897.pdf"
-			(at 42.037 137.541 0)
+			(at 41.91 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +9847,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 42.037 142.621 0)
+			(at 41.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,7 +9855,7 @@
 			)
 		)
 		(property "manf#" "TL3342F450QG"
-			(at 42.037 142.621 0)
+			(at 41.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,8 +9863,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
-			(at 42.037 142.621 0)
+		(property "LCSC#" "C2886897"
+			(at 41.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +9873,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 42.037 142.621 0)
+			(at 41.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
