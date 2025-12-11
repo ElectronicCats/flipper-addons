@@ -5425,6 +5425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 163.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1f8fd5c-091e-44d8-88a2-711aee738445")
 		)
@@ -5584,6 +5593,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e642cc4-5f4b-4ec3-9b47-7e95aef66ccf")
 		)
@@ -5680,6 +5698,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 133.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb35d279-701c-4345-9db0-c0ddfa9764ce")
 		)
@@ -5749,6 +5776,15 @@
 			)
 		)
 		(property "LCSC#" "C698227"
+			(at 46.99 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 46.99 130.81 90)
 			(effects
 				(font
@@ -5901,6 +5937,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "daa5769e-c856-4fa9-a473-0cfef473b879")
 		)
@@ -5995,6 +6040,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 125.73 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "87feadd0-d68c-407e-9b4b-5cdf964f8fca")
 		)
@@ -6068,6 +6122,15 @@
 			)
 		)
 		(property "LCSC#" "C5226885"
+			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 166.37 45.72 0)
 			(effects
 				(font
@@ -6248,6 +6311,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 125.73 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1199d86-12be-4ad1-ab9a-11b13bc82a03")
 		)
@@ -6270,7 +6342,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "63cc1547-91a2-4a85-adcf-ff1a38b499bf")
 		(property "Reference" "JP3"
 			(at 99.06 72.39 0)
@@ -6307,6 +6379,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 99.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -6384,6 +6465,15 @@
 			)
 		)
 		(property "LCSC#" "C698227"
+			(at 46.99 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 46.99 97.79 90)
 			(effects
 				(font
@@ -6621,6 +6711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f993ea30-dc4e-4830-ad1e-b49f3061096b")
 		)
@@ -6691,6 +6790,15 @@
 		)
 		(property "LCSC#" "C85980"
 			(at 33.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
+			(at 33.02 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,6 +7243,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 24.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ead1f88-6930-419a-a7c4-f442c2bcb1f8")
 		)
@@ -7222,6 +7339,15 @@
 		)
 		(property "manf#" ""
 			(at 137.16 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
+			(at 137.16 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,6 +7450,15 @@
 			)
 		)
 		(property "manf#" ""
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -7510,6 +7645,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 179.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5b4bb57-d83b-4a05-b0a3-6be12c8645e2")
 		)
@@ -7653,6 +7797,15 @@
 			)
 		)
 		(property "LCSC#" "C5137501"
+			(at 52.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 52.07 109.22 0)
 			(effects
 				(font
@@ -7927,6 +8080,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C163836"
+			(at 96.52 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
+			(at 96.52 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b9f2a60-fad1-4f74-85d2-9e178cd2ee15")
 		)
@@ -8138,6 +8309,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b562b416-36d9-4340-a1ec-be78e5146069")
 		)
@@ -8300,6 +8480,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 52.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "8a4ba9f0-ae21-466d-9f63-aa02334ee994")
 		)
@@ -8412,6 +8601,15 @@
 			)
 		)
 		(property "manf#" ""
+			(at 24.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 24.13 109.22 0)
 			(effects
 				(font
@@ -8630,6 +8828,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a16ea2e0-b9ef-4314-8eb9-600ab2da6307")
 		)
@@ -8693,6 +8900,24 @@
 		)
 		(property "Description" "Jumper, 3-pole, both open"
 			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C163836"
+			(at 96.52 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
+			(at 96.52 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +9016,16 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "TRT-02"
+			(at 77.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" "STEREN"
 			(at 77.47 113.03 0)
 			(effects
 				(font
