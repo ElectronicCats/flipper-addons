@@ -4955,7 +4955,7 @@
 		)
 		(uuid "08b4bd9a-4db8-47e3-a2a8-a89a618ff82e")
 	)
-	(label "CLK"
+	(label "CLKO"
 		(at 90.17 78.74 180)
 		(effects
 			(font
@@ -5015,7 +5015,7 @@
 		)
 		(uuid "729504ea-dc02-4b32-9e5a-6cacfd57e500")
 	)
-	(label "CLK"
+	(label "CLKO"
 		(at 44.45 40.64 180)
 		(effects
 			(font
