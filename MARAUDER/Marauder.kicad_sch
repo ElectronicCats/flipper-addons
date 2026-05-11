@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "63647ed1-1d55-461b-91cb-5ba52a2e1844")
 	(paper "A4")
+	(title_block
+		(title "flipper-aad-on-Marauder")
+		(date "2026-05-11")
+		(rev "v2.2")
+		(company "ElectronicCats")
+		(comment 1 "Edgar Capuchino")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x08_Socket"
 			(pin_names
