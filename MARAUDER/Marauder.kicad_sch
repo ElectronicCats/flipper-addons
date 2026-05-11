@@ -1278,206 +1278,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Antenna_Shield"
 			(pin_numbers
 				(hide yes)
@@ -5439,14 +5239,6 @@
 		(uuid "d47c4a6d-8ad8-4e2b-bb16-8715dc8b2c74")
 	)
 	(no_connect
-		(at 228.6 66.04)
-		(uuid "d9154116-73ee-4bab-a4fe-54de51e784ff")
-	)
-	(no_connect
-		(at 228.6 63.5)
-		(uuid "dd726164-63bb-4924-bd60-c9e2e7b6e5be")
-	)
-	(no_connect
 		(at 187.96 66.04)
 		(uuid "e72d3d35-c9fa-473b-9672-9b1f2698f7cc")
 	)
@@ -5566,6 +5358,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 66.04) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a001757-1985-4d36-a8c3-db96879965c5")
+	)
+	(wire
+		(pts
 			(xy 25.4 90.17) (xy 25.4 88.9)
 		)
 		(stroke
@@ -5653,26 +5455,6 @@
 			(type default)
 		)
 		(uuid "1105f200-1748-4cac-8898-04b5086613ac")
-	)
-	(wire
-		(pts
-			(xy 312.42 136.906) (xy 316.23 136.906)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12cc3643-1581-4b87-b914-17b49d318bd5")
-	)
-	(wire
-		(pts
-			(xy 313.69 139.446) (xy 313.69 141.986)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "177cbbc3-1586-4120-a3ac-7d76b645b421")
 	)
 	(wire
 		(pts
@@ -6016,16 +5798,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 134.366) (xy 316.23 134.366)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55ff5913-07e7-47b4-8112-01386e5f9e0a")
-	)
-	(wire
-		(pts
 			(xy 145.415 133.35) (xy 151.13 133.35)
 		)
 		(stroke
@@ -6183,16 +5955,6 @@
 			(type default)
 		)
 		(uuid "696197f1-0691-4901-8a28-f9f346852867")
-	)
-	(wire
-		(pts
-			(xy 313.69 139.446) (xy 316.23 139.446)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cca8993-f4ad-4cf0-acd3-d71cffb24043")
 	)
 	(wire
 		(pts
@@ -6806,13 +6568,13 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 131.826) (xy 316.23 131.826)
+			(xy 234.95 63.5) (xy 228.6 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd2f1ec5-7623-44a5-b1ed-f4c59dce80fd")
+		(uuid "ccff8242-65c5-4fb4-9bf5-c99d331c5f7d")
 	)
 	(wire
 		(pts
@@ -6883,16 +6645,6 @@
 			(type default)
 		)
 		(uuid "d6780176-cc0b-4a4a-adb6-2e05157d8a34")
-	)
-	(wire
-		(pts
-			(xy 313.69 129.286) (xy 313.69 131.826)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a80656-4b6a-45e2-86b7-7a9f64162f5e")
 	)
 	(wire
 		(pts
@@ -7344,16 +7096,6 @@
 		)
 		(uuid "52827fa3-fbef-4ceb-9d3e-96bf06886855")
 	)
-	(label "GPS_TX"
-		(at 312.42 136.906 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55e6724e-dc7a-485d-ac3a-893df451b64f")
-	)
 	(label "PB14"
 		(at 53.34 85.09 180)
 		(effects
@@ -7454,16 +7196,6 @@
 		)
 		(uuid "884489d5-34b9-479b-9a18-f7a485347e19")
 	)
-	(label "GPS_RX"
-		(at 312.42 134.366 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b791ee3-ffde-45a4-8bb2-cfa19ba51bdf")
-	)
 	(label "RX"
 		(at 145.415 135.89 0)
 		(effects
@@ -7515,7 +7247,7 @@
 		(uuid "a108ef44-3cf8-4453-b663-28a867f151a8")
 	)
 	(label "GPS_TX"
-		(at 241.3 63.5 180)
+		(at 234.95 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7615,7 +7347,7 @@
 		(uuid "db535644-e02d-4744-8fa1-8e52b5cbcbcc")
 	)
 	(label "GPS_RX"
-		(at 241.3 66.04 180)
+		(at 234.95 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8986,71 +8718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 313.69 141.986 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "260e72b7-10b9-4081-b6f0-98a40981f643")
-		(property "Reference" "#PWR017"
-			(at 313.69 148.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 313.69 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38b2d711-1094-4b9c-9eeb-a32e010a7488")
-		)
-		(instances
-			(project "Marauder"
-				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 49.53 119.761 180)
 		(unit 1)
@@ -10111,82 +9778,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 321.31 134.366 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "56b4ef30-4ae6-4f7f-affb-20b1fb42cd9a")
-		(property "Reference" "J6"
-			(at 323.85 134.3659 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPS"
-			(at 323.85 136.9059 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 321.31 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 321.31 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 321.31 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31cb45b1-6e49-4c39-978e-513388d6cc35")
-		)
-		(pin "2"
-			(uuid "1fc6e66e-48b2-410b-a7fb-6de9fa8ddf02")
-		)
-		(pin "3"
-			(uuid "ae886baf-a0bc-48d8-acd0-281df4b5a730")
-		)
-		(pin "4"
-			(uuid "7bb0998f-f19e-4ada-a0b6-73a10197976a")
-		)
-		(instances
-			(project "Marauder"
-				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 269.24 39.37 0)
 		(unit 1)
@@ -10463,7 +10054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connectors:C393939"
+		(property "Footprint" "Marauder:C393939"
 			(at 113.792 50.927 0)
 			(effects
 				(font
@@ -10783,71 +10374,6 @@
 			(project "marauder_spoof"
 				(path "/c000e998-700d-458d-af0b-55d19d346714"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 313.69 129.286 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8950da9c-af6f-4795-ae4c-1bab918fe8d9")
-		(property "Reference" "#PWR037"
-			(at 313.69 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 314.071 124.8918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92cbe92c-350f-47bb-8fb6-0db2f52d7587")
-		)
-		(instances
-			(project "Marauder"
-				(path "/63647ed1-1d55-461b-91cb-5ba52a2e1844"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12256,7 +11782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:GPSM-SMD_ATGM336H"
+		(property "Footprint" "Marauder:GPSM-SMD_ATGM336H"
 			(at 250.19 136.906 0)
 			(effects
 				(font
@@ -12810,7 +12336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:AT2659S-LSA"
+		(property "Footprint" "Marauder:AT2659S-LSA"
 			(at 204.978 141.224 0)
 			(effects
 				(font
