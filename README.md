@@ -25,16 +25,23 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
   </a>
 </p>
 
-## Working
-- Marauder Magspoof
-- Marauder
-- SubGHz LoRa ([**Flipper LoRa Relay App**](https://github.com/ElectronicCats/flipper-SX1262-LoRa))
-- MagSpoof
-- Modbus ([**Flipper RS485 ModBus App**](https://github.com/ElectronicCats/flipper-rs485modbus))
-- CANBus ([**Flipper CANBUS App**](https://github.com/ElectronicCats/flipper-MCP2515-CANBUS))
-- Ethernet ([**Flipper ENC28J60 Ethernet App**](https://github.com/ElectronicCats/flipper-ENC28J60-ethernet))
-  
- ## Prototypes
+## Add-Ons
+
+Every add-on is a bare board that stacks onto the Flipper Zero GPIO header. One row per add-on: the product page and the firmware or Flipper app it runs.
+
+| Add-On | Product page | Firmware / Flipper app |
+|---|---|---|
+| Marauder | [Flipper Add-On: Marauder](https://electroniccats.com/store/flipper-add-on-marauder/) | [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) |
+| Marauder Spoof | [Flipper Add-On: Marauder Spoof](https://electroniccats.com/store/flipper-add-on-marauder_spoof/) | [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) + [MagSpoof Flipper App](https://github.com/ElectronicCats/magspoof_flipper) |
+| MagSpoof | [Flipper Add-On: MagSpoof](https://electroniccats.com/store/flipper-add-on-magspoof/) | [MagSpoof Flipper App](https://github.com/ElectronicCats/magspoof_flipper) |
+| Sub-GHz / LoRa | [Flipper Zero LoRa & Sub-GHz Add-On](https://electroniccats.com/store/flipper-lra-subghz/) | [Flipper LoRa Relay App](https://github.com/ElectronicCats/flipper-SX1262-LoRa) |
+| Modbus | [Flipper Add-On: Modbus](https://electroniccats.com/store/flipper-add-on-rs485-modbus/) | [Flipper RS485 ModBus App](https://github.com/ElectronicCats/flipper-rs485modbus) |
+| CANBus | [Flipper Add-On: CANBus](https://electroniccats.com/store/flipper-addon-canbus/) | [Flipper CANBUS App](https://github.com/ElectronicCats/flipper-MCP2515-CANBUS) |
+| Ethernet | [Flipper Add-On: Ethernet](https://electroniccats.com/store/flipper-zero-add-on-ethernet/) | [Flipper ENC28J60 Ethernet App](https://github.com/ElectronicCats/flipper-ENC28J60-ethernet) |
+
+Bundles: [Flipper Full Kit](https://electroniccats.com/store/flipper-full-kit/) (every add-on) and [Flipper Industrial Pack](https://electroniccats.com/store/flipper-industrial-pack/) (Modbus, CANBus and Ethernet).
+
+## Prototypes
 - UWB
 
 
