@@ -7,6 +7,7 @@ This repository contains a collection of our Add-Ons for Flipper, the open-sourc
   <img width=30% src="https://github.com/user-attachments/assets/439b425d-0251-4dbe-899c-a1e1964e2afb" />
 </a>
 
+<p align=center><b>Where to buy and learn more</b></p>
 <p align=center>
 <a href="https://electroniccats.com/?s=flipper&post_type=product&product_cat=">
   <img src="https://github.com/ElectronicCats/flipper-shields/assets/44976441/0c617467-052b-4ab1-a3b9-ba36e1f55a91" width="200" height="104" />
